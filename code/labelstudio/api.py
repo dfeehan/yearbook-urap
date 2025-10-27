@@ -37,6 +37,6 @@ for annotation in data:
         })
 
 df = pd.DataFrame(rows)
-print(df)
-print(df.iloc[270])
+print(df['result_type'].iloc[280:290])
+#print(df.iloc[290])
 
