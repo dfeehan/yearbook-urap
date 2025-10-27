@@ -457,7 +457,7 @@ print(f"  Relationship views: {RELATIONSHIPS_DIR}")
 # 4. Create comprehensive metadata CSV
 # ------------------------------------------------------------------
 df_metadata = pd.DataFrame(all_metadata)
-csv_path = os.path.join(OUTPUT_BASE_DIR, "yearbook_photo_metadata.csv")
+csv_path = os.path.join(CROP_DIR, "yearbook_photo_metadata.csv")
 df_metadata.to_csv(csv_path, index=False)
 print(f"Saved metadata to {csv_path}")
 
@@ -501,7 +501,7 @@ for i, photo_group in enumerate(photo_groups):
         
         draw.rectangle([text_left, text_top, text_right, text_bottom], outline=color, width=2)
 
-overlay_path = os.path.join(OUTPUT_BASE_DIR, "yearbook_overlay_relation_groups.png")
+overlay_path = os.path.join(CROP_DIR, "yearbook_overlay_relation_groups.png")
 overlay.save(overlay_path)
 print(f"Saved overlay image with relation-based groupings -> {overlay_path}")
 

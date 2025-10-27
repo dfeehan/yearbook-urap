@@ -45,11 +45,11 @@ python URAPCrop.py
 The script creates the following files in your `OUTPUT_BASE_DIR`:
 ```
 OUTPUT_BASE_DIR/
-├── yearbook_crops/
-│   ├── individual_photos/          # Individual student photo crops
-│   └── relationship_views/         # Side-by-side relationship visuals
-├── yearbook_photo_metadata.csv     # Complete metadata
-└── yearbook_overlay_relation_groups.png  # Full page overlay
+└── yearbook_crops/
+    ├── individual_photos/          # Individual student photo crops
+    ├── relationship_views/         # Side-by-side relationship visuals
+    ├── yearbook_photo_metadata.csv # Complete metadata
+    └── yearbook_overlay_relation_groups.png  # Full page overlay
 ```
 
 ## Security Note
