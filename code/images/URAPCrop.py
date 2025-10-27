@@ -5,17 +5,28 @@ import os
 import pandas as pd
 from collections import defaultdict
 import json
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Configuration from environment variables
+API_TOKEN = os.getenv('LABEL_STUDIO_TOKEN')
+TASK_ID = int(os.getenv('TASK_ID', 185777732))
+OUTPUT_BASE_DIR = os.getenv('OUTPUT_BASE_DIR', os.getcwd())
+BASE_URL = os.getenv('LABEL_STUDIO_BASE_URL', 'https://app.humansignal.com')
+
+# Validate required environment variables
+if not API_TOKEN:
+    raise ValueError("LABEL_STUDIO_TOKEN environment variable is required. Please check your .env file.")
 
 # ------------------------------------------------------------------
 # 1. Fetch real yearbook annotation data from Label Studio API
 # ------------------------------------------------------------------
 def fetch_yearbook_annotations():
     """Fetch annotation data from Label Studio API"""
-    API_TOKEN = "6300902175076cfa5a76e10257490f71d689d15e"
-    TASK_ID = 185777732  # Updated to the new task from your URL
-    
     response = requests.get(
-        f"https://app.humansignal.com/api/tasks/{TASK_ID}/annotations/",
+        f"{BASE_URL}/api/tasks/{TASK_ID}/annotations/",
         headers={"Authorization": f"Token {API_TOKEN}"}
     )
     response.raise_for_status()
@@ -23,26 +34,23 @@ def fetch_yearbook_annotations():
 
 def get_task_image_url():
     """Get the actual yearbook page image URL"""
-    API_TOKEN = "6300902175076cfa5a76e10257490f71d689d15e"
-    TASK_ID = 185777732  # Updated to the new task from your URL
-    
     response = requests.get(
-        f"https://app.humansignal.com/api/tasks/{TASK_ID}/",
+        f"{BASE_URL}/api/tasks/{TASK_ID}/",
         headers={"Authorization": f"Token {API_TOKEN}"}
     )
     response.raise_for_status()
     task_data = response.json()
     
-    # The image URL might be relative, so construct full URL
-    image_path = task_data['data']['image']
-    if image_path.startswith('/'):
-        # Relative path, construct full URL
-        full_url = f"https://app.humansignal.com{image_path}"
-    else:
-        # Already full URL
-        full_url = image_path
+    # Extract the image URL from the task data
+    if 'data' in task_data and 'image' in task_data['data']:
+        image_path = task_data['data']['image']
+        # If it's already a full URL, return it; otherwise prepend BASE_URL
+        if image_path.startswith('http'):
+            return image_path
+        else:
+            return f"{BASE_URL}{image_path}"
     
-    return full_url
+    return None
 
 def organize_by_relations(annotations):
     """
@@ -159,9 +167,8 @@ print("Organizing annotations using explicit relations...")
 photo_groups = organize_by_relations(annotations)
 print(f"Found {len(photo_groups)} photo regions with related elements")
 
-# Output directories - save to desktop
-DESKTOP_PATH = "/Users/louis/Desktop"
-CROP_DIR = os.path.join(DESKTOP_PATH, "yearbook_crops")
+# Output directories - using environment variable
+CROP_DIR = os.path.join(OUTPUT_BASE_DIR, "yearbook_crops")
 os.makedirs(CROP_DIR, exist_ok=True)
 
 # ------------------------------------------------------------------
@@ -450,7 +457,7 @@ print(f"  Relationship views: {RELATIONSHIPS_DIR}")
 # 4. Create comprehensive metadata CSV
 # ------------------------------------------------------------------
 df_metadata = pd.DataFrame(all_metadata)
-csv_path = os.path.join(DESKTOP_PATH, "yearbook_photo_metadata.csv")
+csv_path = os.path.join(OUTPUT_BASE_DIR, "yearbook_photo_metadata.csv")
 df_metadata.to_csv(csv_path, index=False)
 print(f"Saved metadata to {csv_path}")
 
@@ -494,7 +501,7 @@ for i, photo_group in enumerate(photo_groups):
         
         draw.rectangle([text_left, text_top, text_right, text_bottom], outline=color, width=2)
 
-overlay_path = os.path.join(DESKTOP_PATH, "yearbook_overlay_relation_groups.png")
+overlay_path = os.path.join(OUTPUT_BASE_DIR, "yearbook_overlay_relation_groups.png")
 overlay.save(overlay_path)
 print(f"Saved overlay image with relation-based groupings -> {overlay_path}")
 
