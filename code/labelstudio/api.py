@@ -15,9 +15,6 @@ response = requests.get(
 )
 
 data = response.json()
-#df = pd.DataFrame(data)
-#print(df)
-
 rows = []
 for annotation in data:
     annotation_id = annotation['id']
@@ -41,5 +38,5 @@ for annotation in data:
 
 df = pd.DataFrame(rows)
 print(df)
-print(df.iloc[169])
+print(df.iloc[270])
 
