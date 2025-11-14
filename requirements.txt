@@ -1,0 +1,16 @@
+# Core dependencies
+requests>=2.31.0
+pillow>=10.0.0
+pandas>=2.0.0
+
+# AI/ML
+anthropic>=0.25.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Note: Ollama must be installed separately
+# Install from: https://ollama.ai
+# Then pull models:
+#   ollama pull mistral
+#   ollama pull llava

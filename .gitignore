@@ -66,3 +66,10 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Personal/sensitive files (not sample outputs)
+**/yearbook_crops/
+**/*_crops/
+**/personal/
+**/*metadata*.csv
+**/*overlay*.png

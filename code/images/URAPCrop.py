@@ -6,6 +6,8 @@ import pandas as pd
 from collections import defaultdict
 import json
 from dotenv import load_dotenv
+import base64
+import anthropic
 
 # Load environment variables from .env file
 load_dotenv()
@@ -15,10 +17,23 @@ API_TOKEN = os.getenv('LABEL_STUDIO_TOKEN')
 TASK_ID = int(os.getenv('TASK_ID', 185777732))
 OUTPUT_BASE_DIR = os.getenv('OUTPUT_BASE_DIR', os.getcwd())
 BASE_URL = os.getenv('LABEL_STUDIO_BASE_URL', 'https://app.humansignal.com')
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 
 # Validate required environment variables
 if not API_TOKEN:
     raise ValueError("LABEL_STUDIO_TOKEN environment variable is required. Please check your .env file.")
+
+# Initialize Claude client (optional - only if API key is provided)
+claude_client = None
+if ANTHROPIC_API_KEY and ANTHROPIC_API_KEY != 'your_anthropic_api_key_here':
+    try:
+        claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        print("Claude 3.5 Sonnet initialized for AI text extraction")
+    except Exception as e:
+        print(f"⚠️ Claude initialization failed: {e}")
+        print("Continuing without AI text extraction...")
+else:
+    print("ℹ️ No Claude API key provided. Skipping AI text extraction.")
 
 # ------------------------------------------------------------------
 # 1. Fetch real yearbook annotation data from Label Studio API
@@ -51,6 +66,56 @@ def get_task_image_url():
             return f"{BASE_URL}{image_path}"
     
     return None
+
+def extract_text_with_claude(image_crop, text_type="text"):
+    """
+    Use Claude 3.5 Sonnet to extract and identify text from image regions.
+    
+    Args:
+        image_crop: PIL Image of the text region
+        text_type: "name" or "additional" to provide context to Claude
+    
+    Returns:
+        str: Extracted text or None if extraction fails
+    """
+    if not claude_client:
+        return None
+    
+    try:
+        # Convert PIL image to base64
+        buffer = BytesIO()
+        image_crop.save(buffer, format='PNG')
+        image_data = base64.b64encode(buffer.getvalue()).decode('utf-8')
+        
+        # Create appropriate prompt based on text type
+        if text_type.lower() == "name":
+            prompt = """This is a cropped image from a historical yearbook containing a student's name. 
+Please extract the name exactly as written. The text might be in various fonts or even handwritten.
+Respond with ONLY the name, no additional text or explanation."""
+        else:
+            prompt = """This is a cropped image from a historical yearbook containing additional information about a student 
+(such as activities, hometown, major, etc.). Please extract all the text exactly as written.
+The text might be in various fonts or even handwritten.
+Respond with ONLY the extracted text, no additional explanation."""
+        
+        # Send to Claude
+        response = claude_client.messages.create(
+            model="claude-3-haiku-20240307",
+            max_tokens=300,
+            messages=[
+                {"role": "user", "content": [
+                    {"type": "text", "text": prompt},
+                    {"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": image_data}}
+                ]}
+            ]
+        )
+        
+        extracted_text = response.content[0].text.strip()
+        return extracted_text if extracted_text else None
+        
+    except Exception as e:
+        print(f"Claude text extraction failed: {e}")
+        return None
 
 def organize_by_relations(annotations):
     """
@@ -186,7 +251,7 @@ print(f"Loaded image size: {W} x {H}")
 # ------------------------------------------------------------------
 # 3. Crop each photo and save with organized metadata + visual relationships
 # ------------------------------------------------------------------
-def create_filename(photo_group, index):
+def create_filename(photo_group, index, claude_name=None):
     """Create descriptive filename from photo metadata"""
     choices = photo_group['choices']
     
@@ -201,16 +266,22 @@ def create_filename(photo_group, index):
     labels = photo_rect.get('value', {}).get('rectanglelabels', ['unknown'])
     photo_type = labels[0] if labels else 'unknown'
     
-    # Try to get name from related text boxes
-    name_parts = []
-    for text_rect in photo_group['text_rects']:
-        text_labels = text_rect.get('value', {}).get('rectanglelabels', [])
-        if text_labels and text_labels[0] == 'Name':
-            # This is a name text box - we don't have the actual text content in this task
-            # but we can indicate it's a name box
-            name_parts.append('name')
-    
-    name_part = '_'.join(name_parts) if name_parts else 'no_name'
+    # Use Claude-extracted name if available, otherwise try to get name from related text boxes
+    if claude_name and claude_name != 'unknown':
+        # Clean the name for filename use
+        clean_name = claude_name.replace(' ', '_').replace(',', '').replace('.', '').replace("'", "").replace('"', '')
+        # Limit length and remove special characters
+        clean_name = ''.join(c for c in clean_name if c.isalnum() or c == '_')[:20]
+        name_part = clean_name.lower()
+    else:
+        name_parts = []
+        for text_rect in photo_group['text_rects']:
+            text_labels = text_rect.get('value', {}).get('rectanglelabels', [])
+            if text_labels and text_labels[0] == 'Name':
+                # This is a name text box - we don't have the actual text content in this task
+                # but we can indicate it's a name box
+                name_parts.append('name')
+        name_part = '_'.join(name_parts) if name_parts else 'no_name'
     
     # Create filename - if we have no demographic data, focus on what we do have
     if all(v == 'unknown' for v in [class_year, gender, race, quality]):
@@ -222,7 +293,7 @@ def create_filename(photo_group, index):
                 text_types.append(text_labels[0].lower().replace(' ', '_'))
         
         text_info = '_'.join(set(text_types)) if text_types else 'no_text'
-        filename = f"photo_{index:03d}_{photo_type.replace(' ', '_')}_{text_info}.png"
+        filename = f"photo_{index:03d}_{photo_type.replace(' ', '_')}_{name_part}_{text_info}.png"
     else:
         # Use demographic data if available
         filename = f"photo_{index:03d}_{photo_type.replace(' ', '_')}_{class_year}_{gender}_{race}_{quality}.png"
@@ -388,8 +459,46 @@ for i, photo_group in enumerate(photo_groups):
     if rot and rot % 360 != 0:
         crop = crop.rotate(-rot, expand=True)
 
-    # Create filename with metadata
-    filename = create_filename(photo_group, i)
+    # Extract text using Claude AI from text box regions (before creating filename)
+    claude_extracted_texts = []
+    text_boxes_info = []
+    
+    for text_rect in photo_group['text_rects']:
+        text_labels = text_rect.get('value', {}).get('rectanglelabels', [])
+        text_value = text_rect.get('value', {})
+        text_type = text_labels[0] if text_labels else 'unknown'
+        text_coord = f"({text_value.get('x', 0):.1f}%, {text_value.get('y', 0):.1f}%)"
+        
+        # Use Claude to extract text from this region
+        extracted_text = None
+        if claude_client:
+            try:
+                # Crop the text region from the main image
+                text_crop = crop_region(img, text_value)
+                extracted_text = extract_text_with_claude(text_crop, text_type)
+                
+                if extracted_text:
+                    claude_extracted_texts.append({
+                        'type': text_type,
+                        'text': extracted_text,
+                        'coordinates': text_coord
+                    })
+                    print(f"    Claude extracted {text_type}: '{extracted_text}'")
+                
+            except Exception as e:
+                print(f"    Claude extraction failed for {text_type}: {e}")
+        
+        # Store text box info with extracted text
+        if extracted_text:
+            text_boxes_info.append(f"{text_type} at {text_coord}: '{extracted_text}'")
+        else:
+            text_boxes_info.append(f"{text_type} at {text_coord}")
+
+    # Get Claude-extracted name for filename
+    claude_name = next((item['text'] for item in claude_extracted_texts if item['type'] == 'Name'), None)
+
+    # Create filename with metadata (now including Claude-extracted name)
+    filename = create_filename(photo_group, i, claude_name)
     
     # Save individual photo
     individual_path = os.path.join(INDIVIDUAL_DIR, filename)
@@ -401,7 +510,7 @@ for i, photo_group in enumerate(photo_groups):
     relationship_path = os.path.join(RELATIONSHIPS_DIR, relationship_filename)
     relationship_visual.save(relationship_path)
     
-    # Collect text content from related text annotations
+    # Collect text content from related text annotations (manual entries)
     text_content = []
     for text_annotation in photo_group['related_texts']:
         text_val = text_annotation.get('value', {}).get('text', '')
@@ -410,14 +519,8 @@ for i, photo_group in enumerate(photo_groups):
             clean_text = text_val.strip().strip("[]'\"")
             text_content.append(clean_text)
     
-    # Collect text box types and positions
-    text_boxes_info = []
-    for text_rect in photo_group['text_rects']:
-        text_labels = text_rect.get('value', {}).get('rectanglelabels', [])
-        text_value = text_rect.get('value', {})
-        text_type = text_labels[0] if text_labels else 'unknown'
-        text_coord = f"({text_value.get('x', 0):.1f}%, {text_value.get('y', 0):.1f}%)"
-        text_boxes_info.append(f"{text_type} at {text_coord}")
+    # Combine manual and AI-extracted text
+    all_extracted_text = text_content + [item['text'] for item in claude_extracted_texts]
     
     # Store comprehensive metadata
     metadata = {
@@ -437,9 +540,13 @@ for i, photo_group in enumerate(photo_groups):
         'pixel_coords': f"({left_i}, {top_i}, {right_i}, {bottom_i})",
         'connected_elements_count': len(photo_group['connected_ids']),
         'related_text_count': len(text_content),
+        'ai_extracted_text_count': len(claude_extracted_texts),
         'related_text_boxes': len(photo_group['text_rects']),
         'text_box_details': '; '.join(text_boxes_info),
         'related_texts': '; '.join(text_content) if text_content else 'none',
+        'ai_extracted_texts': '; '.join(all_extracted_text) if all_extracted_text else 'none',
+        'claude_name': next((item['text'] for item in claude_extracted_texts if item['type'] == 'Name'), 'unknown'),
+        'claude_additional': next((item['text'] for item in claude_extracted_texts if item['type'] == 'Additional Text'), 'unknown'),
         'connected_ids': ', '.join(photo_group['connected_ids'])
     }
     all_metadata.append(metadata)

@@ -1,0 +1,15 @@
+The data provided appears to be a test dataset for optical character recognition (OCR) in image processing. It consists of a single image file "code/OCR/test\_data/185777725.jpg", which contains the following text:
+
+```sql
+THE LITTLE FLOWER GARDEN
+IN THE COUNTY OF LINCOLN, STATE OF NEW YORK.
+BEFORE JUDGE CLARKE AT TROY,
+April Term 1857
+In the cause of
+A. P. STEWART
+vs.
+E. W. BURNETT
+
+THE FOLLOWING IS THE TRUE COPY OF THE PROCEEDINGS ON TRIAL AT THAT TERM,
+BEFORE SAID JUDGE, IN SAID CAUSE:
+```
