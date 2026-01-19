@@ -1,10 +1,16 @@
 import requests
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-#Jeremy's API token. Consider using your own, though I'm not sure it really matters
-API_TOKEN = "6300902175076cfa5a76e10257490f71d689d15e"
+# Load environment variables
+load_dotenv()
 
-#
+# Get API token from environment
+API_TOKEN = os.getenv('LABEL_STUDIO_TOKEN')
+if not API_TOKEN:
+    raise ValueError("LABEL_STUDIO_TOKEN environment variable is required")
+
 TASK_ID = 185777725
 
 response = requests.get(

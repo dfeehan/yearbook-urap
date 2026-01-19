@@ -1,0 +1,36 @@
+**Student 000 - Relationship View**
+
+**Henry J. Smith**
+
+*   **Name:** Henry J. Smith
+*   **Address:** Sedalia, NY
+*   **Photo:** A black-and-white image of a man wearing a suit and tie, with a serious expression.
+
+**Additional Information**
+
+*   **Major:** Agriculture
+*   **Minor:** Not specified
+*   **Activities:** Agriculture Association
+*   **Quote:** "We must all return to Mother Earth some day."
+*   **Activities:** Agriculture Association
+
+**Additional Notes**
+
+*   **Student Number:** 000
+*   **Relationship View:** Not specified
+
+**Output**
+
+Henry J. Smith
+Sedalia, NY
+A black-and-white image of a man wearing a suit and tie, with a serious expression.
+
+Major: Agriculture
+Minor: Not specified
+Activities: Agriculture Association
+Quote: "We must all return to Mother Earth some day."
+Activities: Agriculture Association
+
+Student Number: 000
+Relationship View: Not specified
+```

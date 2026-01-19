@@ -241,7 +241,7 @@ os.makedirs(CROP_DIR, exist_ok=True)
 # ------------------------------------------------------------------
 print("Loading yearbook page image...")
 # Add authorization header for image request
-headers = {"Authorization": "Token 6300902175076cfa5a76e10257490f71d689d15e"}
+headers = {"Authorization": f"Token {API_TOKEN}"}
 resp = requests.get(image_url, timeout=30, headers=headers)
 resp.raise_for_status()
 img = Image.open(BytesIO(resp.content)).convert("RGB")
@@ -651,11 +651,11 @@ for i, metadata in enumerate(all_metadata[:5]):
         print(f"     Text content: {metadata['related_texts']}")
 
 print(f"\nOutput Structure:")
-print(f"  📁 {CROP_DIR}/")
-print(f"    📁 individual_photos/ - Individual student photo crops")
-print(f"    📁 relationship_views/ - Side-by-side relationship visuals")
-print(f"  📄 {csv_path} - Complete metadata CSV")
-print(f"  🖼️ {overlay_path} - Full page overlay with groupings")
+print(f"  {CROP_DIR}/")
+print(f"    individual_photos/ - Individual student photo crops")
+print(f"    relationship_views/ - Side-by-side relationship visuals")
+print(f"  {csv_path} - Complete metadata CSV")
+print(f"  {overlay_path} - Full page overlay with groupings")
 
 print(f"\nRelationship views show: PHOTO → NAME → ADDITIONAL TEXT with connecting arrows!")
 print(f"All done! Check the relationship_views folder for explicit visual connections.")
