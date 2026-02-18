@@ -9,6 +9,12 @@ anthropic>=0.25.0
 # Environment management
 python-dotenv>=1.0.0
 
+# OCR
+pytesseract>=0.3.0
+
+# Layout detection (optional - requires manual install due to SSL issues)
+# pip install "layoutparser[ocr]" "layoutparser[effdet]" opencv-python
+
 # Note: Ollama must be installed separately
 # Install from: https://ollama.ai
 # Then pull models:
