@@ -84,3 +84,19 @@ Thumbs.db
 **/*_output/*.txt
 **/*_output/*.json
 
+# Model training - large files (not for Git)
+# Training images (users should download their own)
+layout-model-training/data/yearbook/images/*.jpg
+layout-model-training/data/yearbook/images/*.png
+
+# Trained model weights (too large for Git - 315MB)
+layout-model-training/outputs/**/model_*.pth
+
+# Training logs and test outputs
+layout-model-training/scripts/*.log
+layout-model-training/test_results/
+
+# Keep directory structure but ignore contents
+layout-model-training/data/yearbook/images/.gitkeep
+!layout-model-training/data/yearbook/images/.gitkeep
+
