@@ -3,7 +3,7 @@ _BASE_: "../prima/fast_rcnn_R_50_FPN_3x.yaml"
 MODEL:
   DEVICE: cpu  # Change to 'cuda' if you have GPU available
   ROI_HEADS:
-    NUM_CLASSES: 1  # Only 'photo' class (change to 2 if you also labeled 'text')
+    NUM_CLASSES: 2  # Two classes: human_figure (1) and text (2)
   WEIGHTS: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_3x/137849458/model_final_280758.pkl"
 
 SOLVER:

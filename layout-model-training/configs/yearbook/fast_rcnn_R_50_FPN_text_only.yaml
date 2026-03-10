@@ -1,0 +1,35 @@
+_BASE_: "../prima/fast_rcnn_R_50_FPN_3x.yaml"
+
+MODEL:
+  DEVICE: cpu
+  ROI_HEADS:
+    NUM_CLASSES: 1  # Only text class
+    SCORE_THRESH_TEST: 0.3  # Lower threshold for small text boxes
+    NMS_THRESH_TEST: 0.3
+  WEIGHTS: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_3x/137849458/model_final_280758.pkl"
+  
+  # Optimize anchors for small text boxes
+  ANCHOR_GENERATOR:
+    SIZES:
+      - [8, 16]      # Very small text
+      - [16, 32]     # Small text
+      - [32, 64]     # Medium text
+      - [64, 128]    # Large text
+      - [128, 256]   # Very large text
+    ASPECT_RATIOS:
+      - [0.25, 0.5, 1.0, 2.0, 4.0]  # Wide aspect ratios for text boxes
+
+SOLVER:
+  IMS_PER_BATCH: 2
+  BASE_LR: 0.001  # Higher learning rate for faster convergence
+  MAX_ITER: 5000  # Balanced training time
+  STEPS: (3500, 4500)  # LR decay at 70% and 90%
+  CHECKPOINT_PERIOD: 500
+
+INPUT:
+  MIN_SIZE_TRAIN: (800,)
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MAX_SIZE_TEST: 1333
+
+OUTPUT_DIR: "../outputs/yearbook-text-only/fast_rcnn_R_50_FPN/"

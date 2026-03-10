@@ -78,7 +78,10 @@ print("\nConverting to COCO format...")
 coco_data = {
     "images": [],
     "annotations": [],
-    "categories": [{"id": 1, "name": "human_figure"}]  # Student, Faculty, and Group photos
+    "categories": [
+        {"id": 1, "name": "human_figure"},  # Student Photo, Faculty Photo, Group Photo
+        {"id": 2, "name": "text"}  # Name, Additional Text
+    ]
 }
 
 annotation_id = 1
@@ -137,14 +140,20 @@ for image_id, task in enumerate(tasks, start=1):
         
         value = result.get('value', {})
         
-        # Only include photo labels (human figures), skip text labels
+        # Get label and determine category
         labels = value.get('rectanglelabels', [])
         if not labels:
             continue
         
         label = labels[0]
-        if label not in ['Student Photo', 'Faculty Photo', 'Group Photo']:
-            # Skip text boxes like 'Name' and 'Additional Text'
+        
+        # Map labels to categories
+        if label in ['Student Photo', 'Faculty Photo', 'Group Photo']:
+            category_id = 1  # human_figure
+        elif label in ['Name', 'Additional Text']:
+            category_id = 2  # text
+        else:
+            # Skip unknown labels
             continue
         
         # Get bounding box (stored as percentages)
@@ -175,7 +184,7 @@ for image_id, task in enumerate(tasks, start=1):
         coco_data['annotations'].append({
             "id": annotation_id,
             "image_id": image_id,
-            "category_id": 1,
+            "category_id": category_id,  # 1 for human_figure, 2 for text
             "bbox": bbox,
             "area": area,
             "iscrowd": 0

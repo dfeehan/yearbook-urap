@@ -96,6 +96,15 @@ layout-model-training/outputs/**/model_*.pth
 layout-model-training/scripts/*.log
 layout-model-training/test_results/
 
+# Intermediate visualization / debug artifacts
+layout-model-training/detection_*.jpg
+layout-model-training/detection_*.png
+layout-model-training/v4-460px-Yearbook-Page-Ideas-Step-11.jpg
+layout-model-training/Screenshot *.png
+layout-model-training/outputs/
+outputs/
+*.log
+
 # Keep directory structure but ignore contents
 layout-model-training/data/yearbook/images/.gitkeep
 !layout-model-training/data/yearbook/images/.gitkeep
