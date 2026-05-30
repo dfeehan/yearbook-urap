@@ -1,0 +1,34 @@
+[
+  {
+    "portrait_id": 1,
+    "name": "UNKNOWN",
+    "nickname": null,
+    "page_side": "left",
+    "activities": null,
+    "quote": null,
+    "other": null,
+    "bio": null,
+    "bbox": {
+      "x1": 307,
+      "y1": 577,
+      "x2": 682,
+      "y2": 1396
+    }
+  },
+  {
+    "portrait_id": 2,
+    "name": "UNKNOWN",
+    "nickname": null,
+    "page_side": "right",
+    "activities": null,
+    "quote": null,
+    "other": null,
+    "bio": null,
+    "bbox": {
+      "x1": 1979,
+      "y1": 545,
+      "x2": 3221,
+      "y2": 1511
+    }
+  }
+]

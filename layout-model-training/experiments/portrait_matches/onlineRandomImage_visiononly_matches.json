@@ -1,0 +1,205 @@
+[
+  {
+    "portrait_id": 1,
+    "bbox": {
+      "x1": 0.34,
+      "y1": 0.13,
+      "x2": 0.49,
+      "y2": 0.29
+    },
+    "name": "Iris Cook",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [],
+    "quote": "Patience once more.",
+    "other": null,
+    "bio": "Iris Cook is pictured with the quote \"Patience once more.\""
+  },
+  {
+    "portrait_id": 2,
+    "bbox": {
+      "x1": 0.49,
+      "y1": 0.13,
+      "x2": 0.64,
+      "y2": 0.29
+    },
+    "name": "Gene Coplin",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "National Honor Society '31, '32"
+    ],
+    "quote": "I do not envy Aristotles wit, Nor do aspire to Caesar's bleeding fame.",
+    "other": null,
+    "bio": "Gene Coplin was a member of the National Honor Society in 1931 and 1932."
+  },
+  {
+    "portrait_id": 3,
+    "bbox": {
+      "x1": 0.34,
+      "y1": 0.3,
+      "x2": 0.49,
+      "y2": 0.45
+    },
+    "name": "Leo Corkotto",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Football '31",
+      "Track '31",
+      "Reporter Booster Club '31",
+      "Glee Club '29, '30, '31"
+    ],
+    "quote": "My wealth is my health and perfect ease.",
+    "other": null,
+    "bio": "Leo Corkotto participated in Football and Track in 1931, served as Reporter for the Booster Club in 1931, and was in Glee Club from 1929 to 1931."
+  },
+  {
+    "portrait_id": 4,
+    "bbox": {
+      "x1": 0.49,
+      "y1": 0.3,
+      "x2": 0.64,
+      "y2": 0.45
+    },
+    "name": "Dansby Council",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "President of Class '29",
+      "President of Class '30",
+      "President of Spanish Club '30",
+      "Catalinian '31, '32",
+      "Vice-president of Class '31",
+      "Student Council '31",
+      "Assistant Business Manager Bruin",
+      "President of Class '32"
+    ],
+    "quote": "Wilt thou show the wealth of thy wit in one instant.",
+    "other": null,
+    "bio": "Dansby Council served as Class President in 1929, 1930, and 1932, and as Vice-president in 1931. He was President of the Spanish Club, a Catalinian, member of Student Council, and Assistant Business Manager of the Bruin."
+  },
+  {
+    "portrait_id": 5,
+    "bbox": {
+      "x1": 0.34,
+      "y1": 0.46,
+      "x2": 0.49,
+      "y2": 0.61
+    },
+    "name": "Juanita Cox",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Athenian '30, '31, '32",
+      "Glee Club '31, '32",
+      "Senior Play",
+      "Pep Squad '31"
+    ],
+    "quote": "With gifts of wit and ornaments of nature.",
+    "other": null,
+    "bio": "Juanita Cox was an Athenian from 1930 to 1932, a Glee Club member in 1931 and 1932, and participated in the Senior Play and Pep Squad."
+  },
+  {
+    "portrait_id": 6,
+    "bbox": {
+      "x1": 0.49,
+      "y1": 0.46,
+      "x2": 0.64,
+      "y2": 0.61
+    },
+    "name": "Arthur Albert Crabtree",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Smith-Hughes Printing '31, '32",
+      "Make up-Editor of Grizzly '31",
+      "Athletic Carnival '30",
+      "Bruin Staff"
+    ],
+    "quote": "My consciences clear, my chief defense.",
+    "other": null,
+    "bio": "Arthur Albert Crabtree participated in Smith-Hughes Printing in 1931 and 1932, served as Make-up Editor of the Grizzly in 1931, and was on the Bruin Staff."
+  },
+  {
+    "portrait_id": 7,
+    "bbox": {
+      "x1": 0.34,
+      "y1": 0.62,
+      "x2": 0.49,
+      "y2": 0.77
+    },
+    "name": "Gertrude Craddock",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Columbian '30, '31, '32",
+      "Pep Squad '31",
+      "Cheer Leader '31"
+    ],
+    "quote": "Turn two steps into a manly stride, and speak of frays.",
+    "other": null,
+    "bio": "Gertrude Craddock was a Columbian from 1930 to 1932, a Pep Squad member in 1931, and Cheer Leader in 1931."
+  },
+  {
+    "portrait_id": 8,
+    "bbox": {
+      "x1": 0.49,
+      "y1": 0.62,
+      "x2": 0.64,
+      "y2": 0.77
+    },
+    "name": "Louise Craig",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Athenian '29, '30, '31, '32"
+    ],
+    "quote": "Happiness courts thee in her best array.",
+    "other": "Here's to ?? Louise",
+    "bio": "Louise Craig was an Athenian from 1929 through 1932."
+  },
+  {
+    "portrait_id": 9,
+    "bbox": {
+      "x1": 0.34,
+      "y1": 0.78,
+      "x2": 0.49,
+      "y2": 0.93
+    },
+    "name": "Harris Crane",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Athletic Carnival '30",
+      "Chemistry Club '30",
+      "Band '29, '30, '31, '32",
+      "Orchestra '30, '31, '32",
+      "Contest Band '32"
+    ],
+    "quote": "What I lack, my mind supplies.",
+    "other": null,
+    "bio": "Harris Crane participated in the Athletic Carnival, Chemistry Club, Band, Orchestra, and Contest Band during his school years."
+  },
+  {
+    "portrait_id": 10,
+    "bbox": {
+      "x1": 0.49,
+      "y1": 0.78,
+      "x2": 0.64,
+      "y2": 0.93
+    },
+    "name": "William Crane",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Orchestra '29, '30, '31, '32",
+      "Band '29, '30, '31, '32",
+      "Contest Band '32",
+      "Drum-Major of Band '32"
+    ],
+    "quote": "When I am old there is grief enough for me.",
+    "other": "Mary Frances Brittin",
+    "bio": "William Crane was a member of the Orchestra and Band from 1929 to 1932, played in the Contest Band, and was Drum-Major of the Band in 1932."
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "portrait_id": 1,
+    "name": "Minnie Ola Daniels, A.B.",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Le Cercle Francais 4",
+      "Y.W.C.A. 1, 2, 3, 4",
+      "Political Science Club 1, 2"
+    ],
+    "quote": "\"Life to me has been nothing but misery, heartbreak and tears.\"",
+    "other": null,
+    "bio": "Minnie Ola Daniels from Goldsboro, NC, was involved in Le Cercle Francais and the Y.W.C.A. throughout her college years. She also participated in the Political Science Club.",
+    "bbox": {
+      "x1": 1471,
+      "y1": 193,
+      "x2": 1674,
+      "y2": 409
+    }
+  },
+  {
+    "portrait_id": 2,
+    "name": "William Oscar Bunch, Jr., B.S.",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Varsity Track 1, 2, 4",
+      "Varsity Football 2, 4",
+      "Varsity Basketball 3",
+      "Science Club 3",
+      "Fraternal Club 3",
+      "Sphinx Club 2",
+      "Alpha Phi Alpha Fraternity 1, 4",
+      "Business Manager of Student Body",
+      "Y.M.C.A. 1, 2, 3, 4",
+      "Varsity Club 2, 4"
+    ],
+    "quote": "\"Brevity is the soul of wit.\"",
+    "other": null,
+    "bio": "William Oscar Bunch, Jr. from Newark, NJ, was active in varsity sports, numerous clubs, and the Alpha Phi Alpha Fraternity. He served as the Business Manager of the Student Body and participated in the Y.M.C.A.",
+    "bbox": {
+      "x1": 827,
+      "y1": 211,
+      "x2": 1015,
+      "y2": 428
+    }
+  },
+  {
+    "portrait_id": 3,
+    "name": "Marchetta Campbell, A.B.",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "University Choir 3",
+      "Gregorian Club 3",
+      "Sociology Club 2, 4",
+      "Ladies' Staff of 'Bear' 4",
+      "Student Government 4"
+    ],
+    "quote": "\"Such is life.\"",
+    "other": null,
+    "bio": "Marchetta Campbell from Kittrell, NC, participated in the University Choir, the Gregorian Club, and was a member of the Sociology Club and Student Government.",
+    "bbox": {
+      "x1": 833,
+      "y1": 436,
+      "x2": 1007,
+      "y2": 651
+    }
+  },
+  {
+    "portrait_id": 4,
+    "name": "Spencer E. Durant, B.S.",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Omega Psi Phi Fraternity 4",
+      "Cheer Basileus 4",
+      "Student Council 1",
+      "Dramatics Club 3, 4",
+      "Y.M.C.A. Cabinet 4",
+      "Dormitory Counsel",
+      "Pedestrian Club 4"
+    ],
+    "quote": "\"The happiness consists not in multitude of friends, but in their worth and choice.\"",
+    "other": null,
+    "bio": "Spencer E. Durant from Wilmington, NC, was involved in numerous leadership roles including Omega Psi Phi Fraternity and the Y.M.C.A. Cabinet. He also participated in Dramatics Club and Student Council.",
+    "bbox": {
+      "x1": 1479,
+      "y1": 410,
+      "x2": 1665,
+      "y2": 634
+    }
+  },
+  {
+    "portrait_id": 5,
+    "name": "Marchette Carson",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Alpha Omicron Rho Sorority 2, 4",
+      "President Sigma Theta Sorority 1, 3",
+      "President Collegiate Press 4",
+      "Circulation Manager 'Bear' 4",
+      "Editor Tributary 4",
+      "Le Cercle Francais 1, 2, 3",
+      "Secretary 3",
+      "Varsity Club 2, 3",
+      "Student Government 1",
+      "Y.W.C.A. Cabinet",
+      "Christian Conference 2, 4",
+      "Student Council 4"
+    ],
+    "quote": "\"Those not busy being born are busy dying.\"",
+    "other": null,
+    "bio": "Marchette Carson from Hackensack, NJ, held leadership roles in multiple sororities and participated in extracurriculars like Le Cercle Francais, Varsity Club, and Student Government.",
+    "bbox": {
+      "x1": 835,
+      "y1": 652,
+      "x2": 1026,
+      "y2": 872
+    }
+  },
+  {
+    "portrait_id": 6,
+    "name": "Ophelia Durham, A.B.",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Le Cercle Francais 2, 3, 4",
+      "President 2",
+      "Eta Zeta Phi Beta Sorority 4",
+      "Secretary Club 3",
+      "President Club 3",
+      "Dramatics Club 3",
+      "Y.W.C.A. Cabinet 4",
+      "Promotional Secretary 3",
+      "Scientific Association 4",
+      "Treasurer 3",
+      "Y.M.C.A. 4"
+    ],
+    "quote": "\"It matters not what you do, but how she likes.\"",
+    "other": null,
+    "bio": "Ophelia Durham from Paterson, NJ, was active in Le Cercle Francais and Eta Zeta Phi Beta Sorority. She also held positions in numerous clubs including Dramatics Club and Y.M.C.A.",
+    "bbox": {
+      "x1": 1488,
+      "y1": 624,
+      "x2": 1681,
+      "y2": 850
+    }
+  },
+  {
+    "portrait_id": 7,
+    "name": "John Alexander Mimms, B.S.",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Art Editor of Jewel 1, 3, 4",
+      "Varsity Football 1, 3",
+      "Varsity Basketball 2, 4",
+      "Co-editor of Annual 1, 2",
+      "Gymnasium",
+      "Secretary of Student Body 1",
+      "President 2",
+      "Class  4",
+      "Dramatic Club 3",
+      "Red Cross"
+    ],
+    "quote": "\"Once he had fame, he pursued it himself.\"",
+    "other": null,
+    "bio": "John Alexander Mimms participated in varsity sports and was an editor for multiple publications. He held leadership roles as Secretary of Student Body and class president.",
+    "bbox": {
+      "x1": 833,
+      "y1": 873,
+      "x2": 1022,
+      "y2": 1092
+    }
+  },
+  {
+    "portrait_id": 8,
+    "name": "John Joseph Renfro, B.S.",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Art Editor of Journal 3, 4",
+      "Varsity Football 1, 2, 3",
+      "Varsity Basketball 3, 4",
+      "Co-editor of Annual 1, 4",
+      "Assistant Coach of Football 1",
+      "President of Athletic Association 3",
+      "Y.W.C.A. 3, 4",
+      "Secretary of Brotherhood Council 3",
+      "President Class 4",
+      "Dramatics Club 3",
+      "Fraternal Club President 4",
+      "Rifle Club President 4"
+    ],
+    "quote": "\"He likes to indulge in meanderings.\"",
+    "other": null,
+    "bio": "John Joseph Renfro was heavily involved in athletics and leadership, serving as Art Editor, player, and assistant coach in various capacities. He also contributed to several clubs and was a class president.",
+    "bbox": {
+      "x1": 1489,
+      "y1": 844,
+      "x2": 1674,
+      "y2": 1063
+    }
+  },
+  {
+    "portrait_id": 9,
+    "name": "Georgia Evelyn Coles, A.B.",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "The Deutsche Verein 1",
+      "Scientific Club 4",
+      "Science Club 1, 2, 4",
+      "History Study Group 2, 3",
+      "Choral Society 1, 2, 3, 4",
+      "Sociology Club 1",
+      "Student Credit Union 3, 4",
+      "President Anarchan Club 3",
+      "Cheerleader 3",
+      "President's Club 3"
+    ],
+    "quote": "\"Man's greed for education created the need for woman as educator.\"",
+    "other": null,
+    "bio": "Georgia Evelyn Coles participated in science and sociology clubs, as well as musical activities like Choral Society. She was also involved in student government and credit unions.",
+    "bbox": {
+      "x1": 839,
+      "y1": 1087,
+      "x2": 1025,
+      "y2": 1305
+    }
+  },
+  {
+    "portrait_id": 10,
+    "name": "Frank Alston Evans, Jr., B.S.",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Alpha Phi Alpha Fraternity 4",
+      "Y.M.C.A. 1, 2, 3, 4",
+      "University Choral Society 2, 3, 4",
+      "Scientific Club 2",
+      "Science Club 3, 4",
+      "Sphinx Club 4",
+      "Dramatics Club 4"
+    ],
+    "quote": "\"Life is not to gobble and devour, but to be filled.\"",
+    "other": null,
+    "bio": "Frank Alston Evans, Jr. participated actively in the Alpha Phi Alpha Fraternity, various science clubs, and the University Choral Society. He was also involved in the Y.M.C.A. and Dramatics Club.",
+    "bbox": {
+      "x1": 1475,
+      "y1": 1059,
+      "x2": 1680,
+      "y2": 1289
+    }
+  }
+]

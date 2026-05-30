@@ -1,0 +1,426 @@
+[
+  {
+    "portrait_id": 1,
+    "name": "Flora Nell Abbe",
+    "nickname": "\"Little Nell\"",
+    "page_side": "left",
+    "activities": [
+      "Secretary Home Room (2);",
+      "D. S. Bible Club (3, 2), Secretary (1);",
+      "Grammar School (4), Basketball Code; French Club (3);",
+      "Student Assembly Representative (1); Choir (1)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 308,
+      "y1": 297,
+      "x2": 749,
+      "y2": 826
+    }
+  },
+  {
+    "portrait_id": 2,
+    "name": "Bernice Abrams",
+    "nickname": "\"Bunny\"",
+    "page_side": "left",
+    "activities": [
+      "House and Grounds Committee."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 727,
+      "y1": 278,
+      "x2": 1172,
+      "y2": 822
+    }
+  },
+  {
+    "portrait_id": 3,
+    "name": "James Jones Akers, Jr.",
+    "nickname": "\"Jimmy\"",
+    "page_side": "left",
+    "activities": [
+      "Home Room 206;",
+      "Scientific Research Club;",
+      "Spanish Club."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2485,
+      "y1": 191,
+      "x2": 2925,
+      "y2": 729
+    }
+  },
+  {
+    "portrait_id": 4,
+    "name": "Peggy Gray Albea",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Homeroom Representative (4);",
+      "Ways and Means Committee (4);",
+      "Conservation Agency (2);",
+      "President Home Room (1);",
+      "Sketch and Comic Activities Staff (3),",
+      "Boys' Good Sports Club (3);",
+      "Leap Year Club (1);",
+      "Secretary (3);",
+      "History Club (2);",
+      "Home Room (4), (2), & (1)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2924,
+      "y1": 189,
+      "x2": 3380,
+      "y2": 721
+    }
+  },
+  {
+    "portrait_id": 5,
+    "name": "Margaret Elizabeth Alexander",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Home Room (1, 3, 4);",
+      "President (3);",
+      "Junior Marshal (1);",
+      "Boy's Good Sports Club (1);",
+      "History Club (1);",
+      "Historical Society (1);",
+      "Lenton Club (3);",
+      "Visitor's Desk (2);",
+      "Annual Staff College (4)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2490,
+      "y1": 716,
+      "x2": 2936,
+      "y2": 1262
+    }
+  },
+  {
+    "portrait_id": 6,
+    "name": "John David Alexander",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "D. S. President (4, 3, 2);",
+      "Boys' Good Sports Club (1, 2);",
+      "French Club (1);",
+      "Annual Staff Committee (1);",
+      "Forecast Report Committee (4, 3, 2);",
+      "Watch Activity Staff Committee (4, 3);",
+      "Monitor (4); Football (1, 2); Baseball (3); Intramural Sports Program Committee (3);",
+      "Parliamentarian Student Assembly (1)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2916,
+      "y1": 712,
+      "x2": 3342,
+      "y2": 1252
+    }
+  },
+  {
+    "portrait_id": 7,
+    "name": "Harry Alexander Allen",
+    "nickname": "\"Chevy\", \"Skipper\"",
+    "page_side": "left",
+    "activities": [
+      "Junior Marshal Club (2);",
+      "Track Telephone Committee;",
+      "Basketball Home Room Treasurer (2);",
+      "Central Hi-Y Club President (4)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 303,
+      "y1": 811,
+      "x2": 751,
+      "y2": 1352
+    }
+  },
+  {
+    "portrait_id": 8,
+    "name": "John Andrew Allison, Jr.",
+    "nickname": "\"Jack\"",
+    "page_side": "left",
+    "activities": [
+      "Traffic Committee (2, 3);",
+      "Spanish Club (2);",
+      "German Club (3);",
+      "Scientific Research Club (1)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 736,
+      "y1": 799,
+      "x2": 1162,
+      "y2": 1348
+    }
+  },
+  {
+    "portrait_id": 9,
+    "name": "Mary Larue Allison",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Nonrotational Cabinet (4);",
+      "Chairman of Social Committee (3, 2);",
+      "Student Assembly Representative (1);",
+      "Student Council (4);",
+      "House and Grounds Committee."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 310,
+      "y1": 1345,
+      "x2": 727,
+      "y2": 1874
+    }
+  },
+  {
+    "portrait_id": 10,
+    "name": "Margaret Alice Amon",
+    "nickname": "\"Sneezy\"",
+    "page_side": "left",
+    "activities": [
+      "Junior Marshal (3);",
+      "Secretary Senior Class (4);",
+      "Vice-President Home Room (3);",
+      "Inventory Review Staff (3);",
+      "Girls Sport Club (4, 1), Leader Club (3);",
+      "Music Club Secretary (4);",
+      "Science Club (3);",
+      "Home Room Assistant (3, 1);",
+      "Cheer Leader (2, 1);",
+      "Chorus Club (2, 1), Music Staff Club Leader Chorus (3, 1);",
+      "Committee Chairman (3);",
+      "Conservation Club (3);",
+      "D. S. Musical Activity Committee Chairman (4);",
+      "Senior Invitations Committee (4, 2), Chairman Junior Invitations Committee (3);",
+      "Volunteer Choir (4)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 733,
+      "y1": 1336,
+      "x2": 1193,
+      "y2": 1880
+    }
+  },
+  {
+    "portrait_id": 11,
+    "name": "Fred Amon",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Block \"C\" Club (4);",
+      "President (4);",
+      "Boys' Good Sports Club (4, 3, 2);",
+      "Vice-President (1);",
+      "Baseball (3);",
+      "Basketball (3);",
+      "Vice-President Home Room (3);",
+      "Choir (4);",
+      "Football (1, 2, 4), Captain (4)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2490,
+      "y1": 1241,
+      "x2": 2907,
+      "y2": 1779
+    }
+  },
+  {
+    "portrait_id": 12,
+    "name": "Bessie Lee Anderson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "House and Grounds Representative (4);",
+      "Nonrotational Cabinet (4, 3);",
+      "Lost and Found Committee (3);",
+      "Girl Reserve Club (3);",
+      "Roster Representative (1);",
+      "History Club (3);",
+      "Choir (3)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2931,
+      "y1": 1237,
+      "x2": 3372,
+      "y2": 1779
+    }
+  },
+  {
+    "portrait_id": 13,
+    "name": "Joan Alexander Arrowood",
+    "nickname": null,
+    "page_side": "right",
+    "activities": null,
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 304,
+      "y1": 1860,
+      "x2": 756,
+      "y2": 2398
+    }
+  },
+  {
+    "portrait_id": 14,
+    "name": "Joseph William Armstrong",
+    "nickname": "\"Joe\"",
+    "page_side": "right",
+    "activities": [
+      "Assistant Manager Football Team (1, 2, 3)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 723,
+      "y1": 1868,
+      "x2": 1158,
+      "y2": 2400
+    }
+  },
+  {
+    "portrait_id": 15,
+    "name": "John Lawrence Asbury",
+    "nickname": "\"Johnny Lawrence\"",
+    "page_side": "right",
+    "activities": [
+      "Boys' Good Sports Club (2, 3);",
+      "Spanish Club (2, 3);",
+      "Hi-Y Club (3);",
+      "President Home Room (2);",
+      "Vice-President (3);",
+      "Guidance Committee (2)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2495,
+      "y1": 1778,
+      "x2": 2915,
+      "y2": 2306
+    }
+  },
+  {
+    "portrait_id": 16,
+    "name": "Francis Jean Ashmore",
+    "nickname": "\"Joey\"",
+    "page_side": "right",
+    "activities": [
+      "Basketball (2, 3);",
+      "Soccer (2);",
+      "Swimming (3);",
+      "Tennis (2, 3);",
+      "Girl Reserve Club (3, 4);",
+      "Vice-President Home Room (3)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2918,
+      "y1": 1771,
+      "x2": 3360,
+      "y2": 2302
+    }
+  },
+  {
+    "portrait_id": 17,
+    "name": "Herbert Alec Asten",
+    "nickname": "\"Saxon\"",
+    "page_side": "right",
+    "activities": [
+      "President Home Room (4, 3, 2);",
+      "Vice-President Senior Class (1);",
+      "Student Assembly Representative (1);",
+      "Chi Beta Chi Club (1);",
+      "Dance Committee (4);",
+      "Chairman Senior Invitations Committee (1);",
+      "Football (3);",
+      "Intramural Football (2);",
+      "Track (4, 1, 2)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2489,
+      "y1": 2298,
+      "x2": 2914,
+      "y2": 2831
+    }
+  },
+  {
+    "portrait_id": 18,
+    "name": "Leon Newell Atkinson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": null,
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 2906,
+      "y1": 2298,
+      "x2": 3360,
+      "y2": 2840
+    }
+  },
+  {
+    "portrait_id": 19,
+    "name": "Paul Augtry",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Treasurer Home Room (1);",
+      "Football (3);",
+      "History Forum (2)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 322,
+      "y1": 2398,
+      "x2": 729,
+      "y2": 2929
+    }
+  },
+  {
+    "portrait_id": 20,
+    "name": "James Addison Austin",
+    "nickname": "\"Jimmy\"",
+    "page_side": "right",
+    "activities": [
+      "Band (4, 2, 3);",
+      "Treasurer Home Room (2)."
+    ],
+    "quote": null,
+    "other": null,
+    "bbox": {
+      "x1": 731,
+      "y1": 2385,
+      "x2": 1163,
+      "y2": 2920
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "portrait_id": 1,
+    "name": "Pearl Bernice Garrett",
+    "nickname": "Peggy",
+    "page_side": "left",
+    "activities": [],
+    "quote": null,
+    "other": "349 Lindsey Street",
+    "bio": "Pearl Bernice Garrett, nicknamed 'Peggy,' resides at 349 Lindsey Street. She is majoring in Biology and minoring in English, with an interest in the Cubanola Club and the Y.W.C.A.",
+    "bbox": {
+      "x1": 768,
+      "y1": 486,
+      "x2": 1071,
+      "y2": 865
+    }
+  },
+  {
+    "portrait_id": 2,
+    "name": "Elma Theola Graves",
+    "nickname": "Chick",
+    "page_side": "left",
+    "activities": [],
+    "quote": null,
+    "other": "Chesapeake, Va.",
+    "bio": "Elma Theola Graves, nicknamed 'Chick,' is from Chesapeake, Virginia. She is majoring in Commerce, associated with the Women's Student Government Association, and aims for future business success.",
+    "bbox": {
+      "x1": 1054,
+      "y1": 506,
+      "x2": 1375,
+      "y2": 978
+    }
+  },
+  {
+    "portrait_id": 3,
+    "name": "Paul Haynes",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Band",
+      "Track",
+      "Football",
+      "Athletic Association"
+    ],
+    "quote": "\"Goals are not reached by sudden flight.\"",
+    "other": "Whiteville, N.C.",
+    "bio": "Paul Haynes resides in Whiteville, N.C. He is involved in band, track, and football, and a member of the Athletic Association. He believes in perseverance, expressed by his quote, \"Goals are not reached by sudden flight.\"",
+    "bbox": {
+      "x1": 2740,
+      "y1": 455,
+      "x2": 3101,
+      "y2": 854
+    }
+  },
+  {
+    "portrait_id": 4,
+    "name": "Napoleon Howard",
+    "nickname": "Bill",
+    "page_side": "right",
+    "activities": [
+      "Technical Club",
+      "Gamma Tau Fraternity",
+      "Y.M.C.A."
+    ],
+    "quote": "\"He who learns must suffer.\" Aristotle",
+    "other": "Robersonville, N.C.",
+    "bio": "Napoleon Howard, known as 'Bill,' from Robersonville, N.C., is majoring in Industrial Arts. He participates in the Technical Club, Gamma Tau Fraternity, and Y.M.C.A. His outlook on learning is summarized by Aristotle's quote, \"He who learns must suffer.\"",
+    "bbox": {
+      "x1": 3039,
+      "y1": 487,
+      "x2": 3370,
+      "y2": 868
+    }
+  },
+  {
+    "portrait_id": 5,
+    "name": "Paul Edward Gidney",
+    "nickname": "Skegee",
+    "page_side": "left",
+    "activities": [],
+    "quote": "\"You are listening to Paul Gidney and his A. & T. Serenaders over station W.G.I.D.\"",
+    "other": "Shelby, N.C.",
+    "bio": "Paul Edward Gidney, also known as 'Skegee,' is from Shelby, N.C. He is majoring in Social Science and has a talent for broadcasting, expressed in his quote, \"You are listening to Paul Gidney and his A. & T. Serenaders over station W.G.I.D.\"",
+    "bbox": {
+      "x1": 763,
+      "y1": 862,
+      "x2": 1059,
+      "y2": 1254
+    }
+  },
+  {
+    "portrait_id": 6,
+    "name": "Thomas Felton Griswell",
+    "nickname": "Benny",
+    "page_side": "left",
+    "activities": [],
+    "quote": "\"When old and cranky and no man’s delight, I’ll flip my sermons and collegiately preach.\"",
+    "other": "Reidsville, N.C.",
+    "bio": "Thomas Felton Griswell, nicknamed 'Benny,' lives in Reidsville, N.C. Majoring in Theology, he aspires to preach, as highlighted by his quote: \"When old and cranky and no man’s delight, I’ll flip my sermons and collegiately preach.\"",
+    "bbox": {
+      "x1": 1056,
+      "y1": 887,
+      "x2": 1369,
+      "y2": 1247
+    }
+  },
+  {
+    "portrait_id": 7,
+    "name": "Arthur Headon",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "A. S. U. V.",
+      "Y. M. C. A."
+    ],
+    "quote": null,
+    "other": "Box Eleventh Street",
+    "bio": "Arthur Headon resides at Box Eleventh Street and majors in Business Administration. He is involved in activities such as A. S. U. V. and Y. M. C. A., and focuses on a direct approach to problems.",
+    "bbox": {
+      "x1": 2749,
+      "y1": 864,
+      "x2": 3057,
+      "y2": 1241
+    }
+  },
+  {
+    "portrait_id": 8,
+    "name": "Carl E. Johnson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Technical Club",
+      "Gamma Tau Fraternity",
+      "Y.M.C.A."
+    ],
+    "quote": "\"Is knowledge the only interest ye can gain?\"",
+    "other": "222 Chestnut Ave.",
+    "bio": "Carl E. Johnson lives at 222 Chestnut Ave. and majors in Chemistry. An active member of the Technical Club, Gamma Tau Fraternity, and Y.M.C.A., he is reflective, questioning, \"Is knowledge the only interest ye can gain?\"",
+    "bbox": {
+      "x1": 3034,
+      "y1": 893,
+      "x2": 3358,
+      "y2": 1246
+    }
+  },
+  {
+    "portrait_id": 9,
+    "name": "Mary Gilmer",
+    "nickname": "Mary",
+    "page_side": "left",
+    "activities": [
+      "Dramatic Club",
+      "Health Club",
+      "Home Economics Club",
+      "Phi Beta Sorority",
+      "Taproom"
+    ],
+    "quote": null,
+    "other": "235 Lindsay St.",
+    "bio": "Mary Gilmer, known simply as 'Mary,' resides at 235 Lindsay St. and majors in Elementary Education. Her activities include engagement with the Dramatic Club, Health Club, and Phi Beta Sorority.",
+    "bbox": {
+      "x1": 768,
+      "y1": 1267,
+      "x2": 1061,
+      "y2": 1627
+    }
+  },
+  {
+    "portrait_id": 10,
+    "name": "Cora Madilline Haith",
+    "nickname": "Sweet chick",
+    "page_side": "left",
+    "activities": [
+      "Library Club",
+      "Silhouette Reporter",
+      "Alpha Kappa Alpha Sorority"
+    ],
+    "quote": "\"The pen is mightier than the sword.\"",
+    "other": "Burlington, N.C.",
+    "bio": "Cora Madilline Haith, affectionately called 'Sweet chick,' hails from Burlington, N.C. Majoring in Library Science, she is active in the Library Club and Alpha Kappa Alpha Sorority. She believes in the power of words, expressing, \"The pen is mightier than the sword.\"",
+    "bbox": {
+      "x1": 1057,
+      "y1": 1257,
+      "x2": 1348,
+      "y2": 1624
+    }
+  },
+  {
+    "portrait_id": 11,
+    "name": "Clarence A. Hughes",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Dramatic Club",
+      "Bach Club",
+      "Beta Nu Alpha Fraternity"
+    ],
+    "quote": null,
+    "other": "405 Cecil Street",
+    "bio": "Clarence A. Hughes lives at 405 Cecil Street, majoring in Business Administration. He is noted for his friendships and is involved in the Dramatic Club, Bach Club, and Beta Nu Alpha Fraternity.",
+    "bbox": {
+      "x1": 2738,
+      "y1": 1245,
+      "x2": 3059,
+      "y2": 1644
+    }
+  },
+  {
+    "portrait_id": 12,
+    "name": "Willa Mae Johnson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Choir",
+      "Science Club",
+      "N.A.A.C.P.",
+      "Y.W.C.A.",
+      "Y.M.C.A."
+    ],
+    "quote": "\"Yours is the prophecy success and happiness.\"",
+    "other": "112 Proctor Ave.",
+    "bio": "Willa Mae Johnson resides at 112 Proctor Ave., majoring in Biology. Her activities include the Choir, Science Club, and N.A.A.C.P. She is directed towards success and happiness, as reflected in her quote.",
+    "bbox": {
+      "x1": 3043,
+      "y1": 1264,
+      "x2": 3342,
+      "y2": 1638
+    }
+  },
+  {
+    "portrait_id": 13,
+    "name": "Maurice O. Godley",
+    "nickname": "Quick",
+    "page_side": "left",
+    "activities": [
+      "Football",
+      "Intramurals"
+    ],
+    "quote": null,
+    "other": "105 Avery St.",
+    "bio": "Maurice O. Godley, known as 'Quick,' lives at 105 Avery St. He majors in Agriculture, is involved in Football and Intramurals, and embodies an agile personality.",
+    "bbox": {
+      "x1": 738,
+      "y1": 1652,
+      "x2": 1095,
+      "y2": 2020
+    }
+  },
+  {
+    "portrait_id": 14,
+    "name": "Henry Gilbert Harris",
+    "nickname": "Bo",
+    "page_side": "left",
+    "activities": [
+      "Varsity Basketball Team",
+      "Interfraternity Association"
+    ],
+    "quote": "\"What is Time to Repose?\"",
+    "other": "Roxboro, N.C.",
+    "bio": "Henry Gilbert Harris, nicknamed 'Bo,' comes from Roxboro, N.C. He majors in Agriculture and is part of the Varsity Basketball Team. His contemplative nature is expressed through, \"What is Time to Repose?\"",
+    "bbox": {
+      "x1": 1047,
+      "y1": 1634,
+      "x2": 1368,
+      "y2": 2010
+    }
+  },
+  {
+    "portrait_id": 15,
+    "name": "Georgia A. Hines",
+    "nickname": "Coke",
+    "page_side": "right",
+    "activities": [
+      "Intercollegiate Debating Team",
+      "John Lewis Talk Club",
+      "Birthday Club"
+    ],
+    "quote": "\"Economics means more than passing fads.\"",
+    "other": "Cary, N.C.",
+    "bio": "Georgia A. Hines, known as 'Coke,' is from Cary, N.C., majoring in Commercial Education. She is active on the Intercollegiate Debating Team and in the John Lewis Talk Club. Georgia emphasizes practicality over short-lived trends through her quote.",
+    "bbox": {
+      "x1": 2737,
+      "y1": 1655,
+      "x2": 3043,
+      "y2": 2023
+    }
+  },
+  {
+    "portrait_id": 16,
+    "name": "Samuel Hodges",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Basketball",
+      "Golf",
+      "Tennis",
+      "Kappa Alpha Psi Fraternity"
+    ],
+    "quote": "\"Study. Smile, if you don’t know the answer.\"",
+    "other": "208 Mill St., New Bern",
+    "bio": "Samuel Hodges lives on Mill St. in New Bern and is majoring in Mechanical Engineering. With a focus on a broad range of sports, he participates in Basketball, Golf, and Tennis. He believes in maintaining a positive attitude, expressed by his quote.",
+    "bbox": {
+      "x1": 3029,
+      "y1": 1632,
+      "x2": 3353,
+      "y2": 2022
+    }
+  },
+  {
+    "portrait_id": 17,
+    "name": "Gordon Edward Grady",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Intercollegiate Council",
+      "Student Music Advisory Board",
+      "Ritovational Club",
+      "Chemistry Club"
+    ],
+    "quote": null,
+    "other": "Upper Picnic",
+    "bio": "Gordon Edward Grady is part of the Intercollegiate Council and Chemistry Club, residing at Upper Picnic. He is majoring in Chemistry with a focus on collaborative and advisory roles within the student community.",
+    "bbox": {
+      "x1": 750,
+      "y1": 2043,
+      "x2": 1070,
+      "y2": 2409
+    }
+  },
+  {
+    "portrait_id": 18,
+    "name": "James Castro Hasty",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Student Government President's Retreat",
+      "Chemistry Club",
+      "Alpha Phi Alpha Fraternity",
+      "Kappa Psi Fraternity"
+    ],
+    "quote": "\"Versatility is the mark of success.\"",
+    "other": "409 South Person St.",
+    "bio": "James Castro Hasty majors in Chemistry and lives at 409 South Person St. He is a leader, participating in Student Government and various clubs. He values versatility, aligning with his quote, \"Versatility is the mark of success.\"",
+    "bbox": {
+      "x1": 1040,
+      "y1": 2004,
+      "x2": 1373,
+      "y2": 2402
+    }
+  },
+  {
+    "portrait_id": 19,
+    "name": "Joseph Jordan",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Alpha Phi Alpha Fraternity",
+      "Y.M.C.A.",
+      "Political Science Department Club"
+    ],
+    "quote": "\"Forward Ever, Backward Never.\"",
+    "other": "Norfolk, Va.",
+    "bio": "Joseph Jordan from Norfolk, Va. majors in Political Science. Active in the Alpha Phi Alpha Fraternity and Y.M.C.A., he is marked by determination as expressed by \"Forward Ever, Backward Never.\"",
+    "bbox": {
+      "x1": 2738,
+      "y1": 2028,
+      "x2": 3069,
+      "y2": 2411
+    }
+  },
+  {
+    "portrait_id": 20,
+    "name": "Eddie Keith",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Soccer",
+      "Track",
+      "Chemistry Club",
+      "Glee Club"
+    ],
+    "quote": null,
+    "other": "Page twenty-three",
+    "bio": "Eddie Keith is majored in Chemistry and involved in soccer and track, with memberships in the Chemistry and Glee Clubs. His diverse participation reflects a well-rounded student life.",
+    "bbox": {
+      "x1": 3038,
+      "y1": 2020,
+      "x2": 3355,
+      "y2": 2409
+    }
+  }
+]

@@ -1,0 +1,421 @@
+[
+  {
+    "portrait_id": 1,
+    "bbox": {
+      "x1": 0.205,
+      "y1": 0.235,
+      "x2": 0.295,
+      "y2": 0.395
+    },
+    "name": "Pearl Bernice Garrett",
+    "nickname": "Topsy",
+    "page_side": "left",
+    "activities": [
+      "Choral Society",
+      "Vice-President of Debating Society (2)",
+      "Alpha Kappa Alpha Sorority",
+      "Register Staff",
+      "L'Alliance Francaise",
+      "Gamma Tau Honorary Society"
+    ],
+    "quote": "The quintessence of ideal womanhood",
+    "other": "420 Lindsay Street, Greensboro, N.C. Major: English. Ambition: College Debating Coach",
+    "bio": "Pearl Bernice Garrett, known as 'Topsy,' of 420 Lindsay Street, Greensboro, N.C., majored in English with the ambition of becoming a College Debating Coach. She was active in the Choral Society, Debating Society (Vice-President), Alpha Kappa Alpha Sorority, Register Staff, L'Alliance Francaise, and Gamma Tau Honorary Society."
+  },
+  {
+    "portrait_id": 2,
+    "bbox": {
+      "x1": 0.295,
+      "y1": 0.235,
+      "x2": 0.385,
+      "y2": 0.395
+    },
+    "name": "Elma Theola Graves",
+    "nickname": "Chubby",
+    "page_side": "left",
+    "activities": [
+      "Choral Society",
+      "W.S.G.A.",
+      "Home Economics Club",
+      "Y.W.C.A."
+    ],
+    "quote": "To make the most of life as long as life lives",
+    "other": "Box 343, Gibsonville, N.C. Major: Home economics. Ambition: Demonstration agent",
+    "bio": "Elma Theola Graves, 'Chubby,' from Gibsonville, N.C., majored in Home Economics with the ambition of becoming a Demonstration agent. She participated in the Choral Society, W.S.G.A., Home Economics Club, and Y.W.C.A."
+  },
+  {
+    "portrait_id": 3,
+    "bbox": {
+      "x1": 0.205,
+      "y1": 0.395,
+      "x2": 0.295,
+      "y2": 0.555
+    },
+    "name": "Paul Edward Gidney",
+    "nickname": "Snoz",
+    "page_side": "left",
+    "activities": [
+      "Band",
+      "Sunday School",
+      "Orchestra"
+    ],
+    "quote": "You are now listening to Paul Gidney and his A. & T. Serenaders",
+    "other": "100 Hamilton Street, Asheville, N.C. Major: History. Ambition: Instructor",
+    "bio": "Paul Edward Gidney, nicknamed 'Snoz,' of Asheville, N.C., majored in History and aspired to become an Instructor. He was active in the Band, Sunday School, and Orchestra."
+  },
+  {
+    "portrait_id": 4,
+    "bbox": {
+      "x1": 0.295,
+      "y1": 0.395,
+      "x2": 0.385,
+      "y2": 0.555
+    },
+    "name": "Thomas Felton Griswell",
+    "nickname": "Grissy",
+    "page_side": "left",
+    "activities": [
+      "Agriculture Association",
+      "Y.M.C.A.",
+      "Sunday School"
+    ],
+    "quote": "The good old candy and pie man",
+    "other": "Major: Agriculture. Ambition: None",
+    "bio": "Thomas Felton Griswell, 'Grissy,' majored in Agriculture with no stated ambition. His activities included the Agriculture Association, Y.M.C.A., and Sunday School."
+  },
+  {
+    "portrait_id": 5,
+    "bbox": {
+      "x1": 0.205,
+      "y1": 0.555,
+      "x2": 0.295,
+      "y2": 0.715
+    },
+    "name": "Mary Gilmer",
+    "nickname": "Mae",
+    "page_side": "left",
+    "activities": [
+      "Choral Club",
+      "Basketball",
+      "Zeta Phi Beta Sorority",
+      "Tapping"
+    ],
+    "quote": "Let's make life interesting for others",
+    "other": "Liberty, N.C. Major: Elementary education. Ambition: Music instructor",
+    "bio": "Mary Gilmer, 'Mae,' of Liberty, N.C., majored in Elementary Education and aspired to be a Music Instructor. She was active in the Choral Club, Basketball, Zeta Phi Beta Sorority, and Tapping."
+  },
+  {
+    "portrait_id": 6,
+    "bbox": {
+      "x1": 0.295,
+      "y1": 0.555,
+      "x2": 0.385,
+      "y2": 0.715
+    },
+    "name": "Cora Madeline Haith",
+    "nickname": "Choke",
+    "page_side": "left",
+    "activities": [
+      "President of W.A.A.",
+      "Y.W.C.A.",
+      "Secretary to Alpha Kappa Alpha Sorority"
+    ],
+    "quote": "The French had a word for it",
+    "other": "400 Stewart Street, Greensboro, N.C. Major: French. Ambition: Librarian",
+    "bio": "Cora Madeline Haith, 'Choke,' of Greensboro, N.C., majored in French with the ambition of becoming a Librarian. She served as President of W.A.A., was active in Y.W.C.A., and was Secretary of Alpha Kappa Alpha Sorority."
+  },
+  {
+    "portrait_id": 7,
+    "bbox": {
+      "x1": 0.205,
+      "y1": 0.715,
+      "x2": 0.295,
+      "y2": 0.875
+    },
+    "name": "Maurice Q. Godley",
+    "nickname": "Quint",
+    "page_side": "left",
+    "activities": [
+      "Football",
+      "Intra-mural sports"
+    ],
+    "quote": "Oh, what a fine life may be had on some hundred acres",
+    "other": "Pantego, N.C. Major: Agriculture. Ambition: Instructor",
+    "bio": "Maurice Q. Godley, 'Quint,' of Pantego, N.C., majored in Agriculture with the ambition of becoming an Instructor. He participated in Football and Intra-mural sports."
+  },
+  {
+    "portrait_id": 8,
+    "bbox": {
+      "x1": 0.295,
+      "y1": 0.715,
+      "x2": 0.385,
+      "y2": 0.875
+    },
+    "name": "Henry Gilbert Harris",
+    "nickname": "Red",
+    "page_side": "left",
+    "activities": [
+      "Phi Beta Sigma Fraternity",
+      "Agriculture Association"
+    ],
+    "quote": "Laissez faire for the proletariat",
+    "other": "Candor, N.C. Major: Agriculture. Ambition: Farm demonstrator",
+    "bio": "Henry Gilbert Harris, 'Red,' of Candor, N.C., majored in Agriculture with the ambition of becoming a Farm demonstrator. He was a member of Phi Beta Sigma Fraternity and the Agriculture Association."
+  },
+  {
+    "portrait_id": 9,
+    "bbox": {
+      "x1": 0.205,
+      "y1": 0.875,
+      "x2": 0.295,
+      "y2": 1.0
+    },
+    "name": "Gordon Edward Grady",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "College Orchestra",
+      "Electrical Club"
+    ],
+    "quote": "Let us come out of darkness into the marvelous light—electricity",
+    "other": "Box 1053, Southern Pines, N.C. Major: Electrical engineering. Ambition: Electrical engineer",
+    "bio": "Gordon Edward Grady of Southern Pines, N.C., majored in Electrical Engineering and aspired to become an Electrical Engineer. He participated in the College Orchestra and Electrical Club."
+  },
+  {
+    "portrait_id": 10,
+    "bbox": {
+      "x1": 0.295,
+      "y1": 0.875,
+      "x2": 0.385,
+      "y2": 1.0
+    },
+    "name": "James Castro Hasty",
+    "nickname": "Professor",
+    "page_side": "left",
+    "activities": [
+      "President of Science Club",
+      "Vice-President of Gamma Tau Honorary Society and of Pan-Hellenic Council",
+      "Gamma Tau Fraternity",
+      "College Band",
+      "Y.M.C.A."
+    ],
+    "quote": "Versatility is a mark of success",
+    "other": "Southern Pines, N.C. Major: Mathematics. Ambition: Instructor",
+    "bio": "James Castro Hasty, 'Professor,' of Southern Pines, N.C., majored in Mathematics with the ambition of becoming an Instructor. He served as President of the Science Club, Vice-President of the Gamma Tau Honorary Society and Pan-Hellenic Council, and was active in Gamma Tau Fraternity, College Band, and Y.M.C.A."
+  },
+  {
+    "portrait_id": 11,
+    "bbox": {
+      "x1": 0.625,
+      "y1": 0.235,
+      "x2": 0.715,
+      "y2": 0.395
+    },
+    "name": "Paul Haynes",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Band",
+      "Class Football",
+      "Agriculture Association"
+    ],
+    "quote": "Goals are not reached by sudden flight, But as a result of long, strenuous efforts",
+    "other": "Whiteville, N.C. Major: General agriculture",
+    "bio": "Paul Haynes of Whiteville, N.C., majored in General Agriculture. He was a member of the Band, Class Football, and the Agriculture Association."
+  },
+  {
+    "portrait_id": 12,
+    "bbox": {
+      "x1": 0.715,
+      "y1": 0.235,
+      "x2": 0.805,
+      "y2": 0.395
+    },
+    "name": "Napoleon Howard",
+    "nickname": "Pol",
+    "page_side": "right",
+    "activities": [
+      "Technical Club",
+      "Gamma Tau Fraternity",
+      "Y.M.C.A."
+    ],
+    "quote": "He has put light on manna' subjects",
+    "other": "Box 31, Faison, N.C. Major: Industrial arts. Ambition: Business",
+    "bio": "Napoleon Howard, 'Pol,' of Faison, N.C., majored in Industrial Arts with the ambition of going into Business. He was active in the Technical Club, Gamma Tau Fraternity, and Y.M.C.A."
+  },
+  {
+    "portrait_id": 13,
+    "bbox": {
+      "x1": 0.625,
+      "y1": 0.395,
+      "x2": 0.715,
+      "y2": 0.555
+    },
+    "name": "Arthur Headon",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "A.S.U.",
+      "Y.M.C.A."
+    ],
+    "quote": "We hope you carry that good ole spirit with you",
+    "other": "305 Bennett Street, Greensboro, N.C. Major: French. Ambition: Recreation Director",
+    "bio": "Arthur Headon of Greensboro, N.C., majored in French with the ambition of becoming a Recreation Director. He participated in A.S.U. and Y.M.C.A."
+  },
+  {
+    "portrait_id": 14,
+    "bbox": {
+      "x1": 0.715,
+      "y1": 0.395,
+      "x2": 0.805,
+      "y2": 0.555
+    },
+    "name": "Carl E. T. Johnson",
+    "nickname": "Hots",
+    "page_side": "right",
+    "activities": [
+      "Vice-President of Senior Class",
+      "Alpha Phi Alpha Fraternity",
+      "Track Team (4)",
+      "Football (3)",
+      "Pan-Hellenic Council (President)",
+      "Y.M.C.A.",
+      "Choral Society",
+      "Varsity Club"
+    ],
+    "quote": "Versatile — athletic — interesting — ambitious",
+    "other": "222 Chestnut Avenue, Ardmore, Pa. Major: Biological sciences. Ambition: Doctor",
+    "bio": "Carl E. T. Johnson, 'Hots,' of Ardmore, Pa., majored in Biological Sciences with the ambition of becoming a Doctor. He was Vice-President of the Senior Class, President of the Pan-Hellenic Council, a member of Alpha Phi Alpha Fraternity, and active in Track, Football, Y.M.C.A., Choral Society, and Varsity Club."
+  },
+  {
+    "portrait_id": 15,
+    "bbox": {
+      "x1": 0.625,
+      "y1": 0.555,
+      "x2": 0.715,
+      "y2": 0.715
+    },
+    "name": "Clarence A. Hughes",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Dramatic Club",
+      "Band",
+      "Business Club",
+      "Sociology Club",
+      "Phi Beta Sigma Fraternity"
+    ],
+    "quote": "Well liked by your friends and instructors",
+    "other": "463 Cole Street, Greensboro, N.C. Major: Business administration. Ambition: Business",
+    "bio": "Clarence A. Hughes of Greensboro, N.C., majored in Business Administration with the ambition of going into Business. He was active in the Dramatic Club, Band, Business Club, Sociology Club, and Phi Beta Sigma Fraternity."
+  },
+  {
+    "portrait_id": 16,
+    "bbox": {
+      "x1": 0.715,
+      "y1": 0.555,
+      "x2": 0.805,
+      "y2": 0.715
+    },
+    "name": "Willa Mae Johnson",
+    "nickname": "Bill",
+    "page_side": "right",
+    "activities": [
+      "Business Club",
+      "W.A.A.",
+      "Choral Club",
+      "Superintendent of Sunday School",
+      "W.S.G.A.",
+      "Gamma Tau Honorary Society",
+      "Delta Sigma Theta Sorority",
+      "Class Secretary",
+      "Birthday Club",
+      "Rel. Council"
+    ],
+    "quote": "Your deeds propbecy success and happiness",
+    "other": "175 West Kinney Street, Newark, N.J. Major: Commercial education. Ambition: Private secretary",
+    "bio": "Willa Mae Johnson, 'Bill,' of Newark, N.J., majored in Commercial Education with the ambition of becoming a Private Secretary. She was Class Secretary, Superintendent of Sunday School, member of Delta Sigma Theta Sorority, and active in numerous clubs including the Business Club, W.A.A., Choral Club, and W.S.G.A."
+  },
+  {
+    "portrait_id": 17,
+    "bbox": {
+      "x1": 0.625,
+      "y1": 0.715,
+      "x2": 0.715,
+      "y2": 0.875
+    },
+    "name": "Georgia A. Hines",
+    "nickname": "Ted",
+    "page_side": "right",
+    "activities": [
+      "Business Club",
+      "Achronian Club",
+      "Birthday Club"
+    ],
+    "quote": "Success means more than passing follies",
+    "other": "Candor, N.C. Major: Commercial education. Ambition: Successful",
+    "bio": "Georgia A. Hines, 'Ted,' of Candor, N.C., majored in Commercial Education with the ambition of being Successful. She was a member of the Business Club, Achronian Club, and Birthday Club."
+  },
+  {
+    "portrait_id": 18,
+    "bbox": {
+      "x1": 0.715,
+      "y1": 0.715,
+      "x2": 0.805,
+      "y2": 0.875
+    },
+    "name": "Joseph Jordan",
+    "nickname": "Joe",
+    "page_side": "right",
+    "activities": [
+      "Agricultural Association",
+      "N.F.A.",
+      "Omega Psi Phi"
+    ],
+    "quote": null,
+    "other": "Major: Agriculture. Ambition: Farmer",
+    "bio": "Joseph Jordan, 'Joe,' majored in Agriculture with the ambition of becoming a Farmer. He was active in the Agricultural Association, N.F.A., and Omega Psi Phi fraternity."
+  },
+  {
+    "portrait_id": 19,
+    "bbox": {
+      "x1": 0.625,
+      "y1": 0.875,
+      "x2": 0.715,
+      "y2": 1.0
+    },
+    "name": "Samuel Hodges",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Basketball (1)",
+      "Tennis",
+      "Kappa Alpha Psi Fraternity"
+    ],
+    "quote": "Truly a great life, if you don't weaken",
+    "other": "Hope Mills, N.C. Major: Vocational agriculture. Ambition: Scientific farmer",
+    "bio": "Samuel Hodges of Hope Mills, N.C., majored in Vocational Agriculture with the ambition of becoming a Scientific Farmer. He participated in Basketball, Tennis, and was a member of Kappa Alpha Psi Fraternity."
+  },
+  {
+    "portrait_id": 20,
+    "bbox": {
+      "x1": 0.715,
+      "y1": 0.875,
+      "x2": 0.805,
+      "y2": 1.0
+    },
+    "name": "Eddie Keith",
+    "nickname": "School Boy",
+    "page_side": "right",
+    "activities": [
+      "Y.M.C.A.",
+      "Tech.",
+      "Kappa Alpha Psi Fraternity",
+      "Annual Staff",
+      "'T' Square Club"
+    ],
+    "quote": "Skillful bands coordinated with capable brain",
+    "other": "Route 2, Box 119, Currie, N.C. Major: Industrial Arts. Ambition: Vocational supervisor",
+    "bio": "Eddie Keith, 'School Boy,' of Currie, N.C., majored in Industrial Arts with the ambition of becoming a Vocational Supervisor. He was active in Y.M.C.A., Kappa Alpha Psi Fraternity, the Annual Staff, and the 'T' Square Club."
+  }
+]

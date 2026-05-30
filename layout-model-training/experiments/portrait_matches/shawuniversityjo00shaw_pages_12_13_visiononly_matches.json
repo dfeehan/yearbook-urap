@@ -1,0 +1,250 @@
+[
+  {
+    "portrait_id": 1,
+    "bbox": {
+      "x1": 0.36,
+      "y1": 0.1,
+      "x2": 0.46,
+      "y2": 0.24
+    },
+    "name": "Violet Odessa Fuller",
+    "nickname": "Vi",
+    "page_side": "left",
+    "activities": [
+      "German Club 1, 2",
+      "Le Cercle Francais 3, 4",
+      "The Archonian Club of Zeta Phi Beta Sorority 2",
+      "Zeta Phi Beta Sorority 3, 4",
+      "Y.W.C.A. 4",
+      "Hayes Fleming Student Volunteer Society 4"
+    ],
+    "quote": null,
+    "other": "Mebane, N. C.; A.B.",
+    "bio": "Violet Odessa Fuller, known as 'Vi,' from Mebane, N. C., earned her A.B. She participated in the German Club, Le Cercle Francais, the Archonian Club and Zeta Phi Beta Sorority, the Y.W.C.A., and the Hayes Fleming Student Volunteer Society."
+  },
+  {
+    "portrait_id": 2,
+    "bbox": {
+      "x1": 0.36,
+      "y1": 0.245,
+      "x2": 0.46,
+      "y2": 0.39
+    },
+    "name": "Robert Louis Garrett",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Varsity Football 1, 2, 3, 4",
+      "University Choral Club 1, 2, 3, 4",
+      "Double Sextette 2, 3, 4",
+      "Varsity Club 1, 2, 3, 4",
+      "Men's Glee Club 3, 4",
+      "Vice President Varsity Club 3",
+      "Sociology Club 3, 4",
+      "Business Manager Choir 3",
+      "President Choral Club 4",
+      "President of Class 2, 3, 4",
+      "Dramatic Club 1, 2, 3, 4",
+      "State Dramatic Festival 3, 4",
+      "Omega Psi Phi Fraternity 2, 3, 4",
+      "Lampodas Club 1",
+      "The National Intercollegiate Dramatic Association 3, 4",
+      "President Lampodas Club 1",
+      "Y.M.C.A. 1, 2, 3, 4",
+      "Shaw Players 1, 2, 3, 4",
+      "Student N.A.A.C.P. 3",
+      "Assistant Director of Dramatics 4",
+      "Resolution Committee, Youths Religious Conference 4",
+      "Parliamentarian, Student Body 2",
+      "Student Credit Union 4",
+      "Vice President of Class 1",
+      "Receiving Committee Youth Conference 4",
+      "President's Club 4",
+      "Head of Department of Sex Hygiene, Hi-Y Club, Washington High School 3, 4",
+      "Receiving Line President's Reception 4",
+      "Student Representative on Arrangement Committee for N.I.D.A. 3"
+    ],
+    "quote": null,
+    "other": "205 W. Normet St., Gastonia, N. C.; A.B.",
+    "bio": "Robert Louis Garrett of Gastonia, N. C., earned his A.B. He was active in varsity football, choral and dramatic groups, served as President of his Class for three years and was a member of Omega Psi Phi Fraternity, among many other leadership roles."
+  },
+  {
+    "portrait_id": 3,
+    "bbox": {
+      "x1": 0.36,
+      "y1": 0.395,
+      "x2": 0.46,
+      "y2": 0.54
+    },
+    "name": "Lewis Van Dorn Graves",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Editor of Sentinel Dormitory Journal",
+      "Member of Alpha Phi Alpha Fraternity",
+      "Football 1, 2, 3, 4",
+      "Track Captain 2, 3, 4, 5"
+    ],
+    "quote": null,
+    "other": "Jersey City, N. J.; A.B.",
+    "bio": "Lewis Van Dorn Graves, from Jersey City, N. J., earned his A.B. He edited the Sentinel Dormitory Journal, belonged to Alpha Phi Alpha Fraternity, and played football while serving as Track Captain."
+  },
+  {
+    "portrait_id": 4,
+    "bbox": {
+      "x1": 0.36,
+      "y1": 0.545,
+      "x2": 0.46,
+      "y2": 0.7
+    },
+    "name": "Loree Marion Griffin",
+    "nickname": "Lois",
+    "page_side": "left",
+    "activities": [
+      "Bennett College 1",
+      "Zeta Phi Beta Sorority 2, 3, 4",
+      "Girls' Chorus 2",
+      "Y.W.C.A. 2, 4",
+      "Hayes Fleming Volunteer Society Representative of Estey House Organization",
+      "Science Club 2, 3, 4"
+    ],
+    "quote": null,
+    "other": "Hendersonville, N. C.; B.S.",
+    "bio": "Loree Marion Griffin, known as 'Lois,' from Hendersonville, N. C., earned a B.S. After attending Bennett College, she joined Zeta Phi Beta Sorority, the Y.W.C.A., the Science Club, and represented the Hayes Fleming Volunteer Society at Estey House."
+  },
+  {
+    "portrait_id": 5,
+    "bbox": {
+      "x1": 0.36,
+      "y1": 0.71,
+      "x2": 0.46,
+      "y2": 0.87
+    },
+    "name": "Julius Anderson Holden",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Student Credit Union 4",
+      "Y.M.C.A. 1, 2, 3, 4",
+      "Crescent Club 2",
+      "Phi Beta Sigma Fraternity 3, 4",
+      "Varsity Club 1, 2, 3, 4",
+      "Parliamentarian of Student Body 4",
+      "Science Club 2, 3, 4",
+      "Corresponding Secretary of Phi Beta Sigma Fraternity 3",
+      "Secretary Phi Beta Sigma Fraternity 4",
+      "Varsity Basketball Team 1, 2, 3, 4",
+      "Captain Basketball Team 3, 4"
+    ],
+    "quote": null,
+    "other": "105 Fuller Street, Smithfield, N. C.; B.S.",
+    "bio": "Julius Anderson Holden of Smithfield, N. C., earned a B.S. He was active in the Student Credit Union, Y.M.C.A., Phi Beta Sigma Fraternity, the Science Club, and served as Captain of the Varsity Basketball Team."
+  },
+  {
+    "portrait_id": 6,
+    "bbox": {
+      "x1": 0.535,
+      "y1": 0.1,
+      "x2": 0.635,
+      "y2": 0.24
+    },
+    "name": "Mary Magdalene Holt",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Pyramid Club 1",
+      "Y.W.C.A. 1, 2, 3, 4",
+      "Delta Sigma Theta Sorority 2, 3, 4",
+      "Le Cercle Francis 2, 3, 4",
+      "Treasurer of Delta Sigma Theta Sorority 3, 4",
+      "Adviser to Pledges 3",
+      "Alpha Omicron Honor Society 4"
+    ],
+    "quote": null,
+    "other": "314 Bragg Street, Goldsboro, N. C.; A.B.",
+    "bio": "Mary Magdalene Holt of Goldsboro, N. C., earned her A.B. She was a member of the Pyramid Club, Y.W.C.A., Le Cercle Francis, and the Alpha Omicron Honor Society, and served as Treasurer of Delta Sigma Theta Sorority."
+  },
+  {
+    "portrait_id": 7,
+    "bbox": {
+      "x1": 0.535,
+      "y1": 0.245,
+      "x2": 0.635,
+      "y2": 0.39
+    },
+    "name": "Purcell Howell",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Virginia State College 1, 2",
+      "University Choir 3, 4",
+      "University Double Sextett 3, 4",
+      "German Club 3",
+      "Sociology Club 3"
+    ],
+    "quote": null,
+    "other": "575 Franklin Avenue, Brooklyn, N. Y.; A.B.",
+    "bio": "Purcell Howell, from Brooklyn, N. Y., earned his A.B. after first attending Virginia State College. He sang in the University Choir and Double Sextett, and was a member of the German Club and Sociology Club."
+  },
+  {
+    "portrait_id": 8,
+    "bbox": {
+      "x1": 0.535,
+      "y1": 0.395,
+      "x2": 0.635,
+      "y2": 0.54
+    },
+    "name": "Valdosia James",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [],
+    "quote": null,
+    "other": "Burgaw, N. C.; A.B.",
+    "bio": "Valdosia James, from Burgaw, N. C., earned her A.B."
+  },
+  {
+    "portrait_id": 9,
+    "bbox": {
+      "x1": 0.535,
+      "y1": 0.545,
+      "x2": 0.635,
+      "y2": 0.7
+    },
+    "name": "Florence Elizabeth Jones",
+    "nickname": "Flo",
+    "page_side": "right",
+    "activities": [
+      "Livingstone College 1, 2",
+      "Zeta Phi Beta Sorority 2, 3, 4",
+      "Sponsors to Chapter Pledgees 3, 4",
+      "Le Cercle Francais 3, 4",
+      "Treasurer of Le Cercle Francais 4",
+      "Y.W.C.A. 3, 4",
+      "Hayes Fleming Society 4",
+      "Representative of Estey House Organization 4"
+    ],
+    "quote": null,
+    "other": "Baltimore, Md.; A.B.",
+    "bio": "Florence Elizabeth Jones, called 'Flo,' from Baltimore, Md., earned her A.B. after attending Livingstone College. She belonged to Zeta Phi Beta Sorority, served as Treasurer of Le Cercle Francais, and represented Estey House Organization."
+  },
+  {
+    "portrait_id": 10,
+    "bbox": {
+      "x1": 0.535,
+      "y1": 0.71,
+      "x2": 0.635,
+      "y2": 0.87
+    },
+    "name": "Ida Elizabeth Jones",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Y.W.C.A.",
+      "Hayes Fleming Student Volunteer Society",
+      "Brush and Palette Art Club"
+    ],
+    "quote": "Where there is a will there is a way",
+    "other": "427 Smith Street, Raleigh, N. C.; A.B.",
+    "bio": "Ida Elizabeth Jones of Raleigh, N. C., earned her A.B. She lived by the motto 'Where there is a will there is a way,' and was active in the Y.W.C.A., the Hayes Fleming Student Volunteer Society, and the Brush and Palette Art Club."
+  }
+]

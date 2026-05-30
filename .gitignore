@@ -105,6 +105,21 @@ layout-model-training/outputs/
 outputs/
 *.log
 
+# SLURM job logs
+logs/
+layout-model-training/logs/
+
+# Generated presentations
+*.pptx
+
+# Experiment outputs — ignore raw intermediate images, keep demo outputs and JSONs
+layout-model-training/experiments/portrait_matches/*_numbered.jpg
+layout-model-training/experiments/portrait_matches/*_annotated.jpg
+layout-model-training/experiments/portrait_matches/*.html
+
+# Python cache
+**/__pycache__/
+
 # Keep directory structure but ignore contents
 layout-model-training/data/yearbook/images/.gitkeep
 !layout-model-training/data/yearbook/images/.gitkeep

@@ -1,0 +1,66 @@
+_BASE_: "../prima/fast_rcnn_R_50_FPN_3x.yaml"
+
+# Clean 60-image text-only run (currently 59 annotated tasks, 47/12 split).
+#
+# Export summary from create_project_text_dataset.py:
+#   Train images: 47
+#   Train boxes: 377
+#   Val images:   12
+#   Val boxes:    112
+#
+# Box geometry on the train split:
+#   sqrt(area) p10 / p50 / p90: 163.9 / 342.8 / 922.1
+#   width     p10 / p50 / p90: 252.5 / 550.5 / 1127.9
+#   height    p10 / p50 / p90:  90.0 / 199.0 / 1253.3
+#   aspect    p10 / p50 / p90:   0.59 / 2.46 / 7.36
+#
+# Design choices:
+# - Keep early backbone layers frozen to reduce overfit on 47 train images.
+# - Use slightly larger anchors than the old tiny-box config, but retain a small
+#   first level because some headings are still modest in size.
+# - Disable flips and restrict rotation to mild deskew jitter for scanned pages.
+# - 2500 iterations at batch size 2 gives ~104 effective epochs, a pragmatic
+#   fine-tuning budget without pushing as hard as the 19-image task-id run.
+
+MODEL:
+  DEVICE: cuda
+  WEIGHTS: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_3x/137849458/model_final_280758.pkl"
+  BACKBONE:
+    FREEZE_AT: 2
+  ROI_HEADS:
+    NUM_CLASSES: 1
+    SCORE_THRESH_TEST: 0.3
+    NMS_THRESH_TEST: 0.3
+  ANCHOR_GENERATOR:
+    SIZES:
+      - [16, 32]
+      - [32, 64]
+      - [64, 128]
+      - [128, 256]
+      - [256, 512]
+    ASPECT_RATIOS:
+      - [0.25, 0.5, 1.0, 2.0, 4.0, 8.0]
+
+SOLVER:
+  IMS_PER_BATCH: 2
+  BASE_LR: 0.00025
+  WARMUP_ITERS: 200
+  WARMUP_FACTOR: 0.001
+  WARMUP_METHOD: linear
+  MAX_ITER: 2500
+  STEPS: [1750, 2250]
+  GAMMA: 0.1
+  CHECKPOINT_PERIOD: 250
+
+INPUT:
+  MIN_SIZE_TRAIN: (800,)
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MAX_SIZE_TEST: 1333
+  RANDOM_FLIP: "none"
+  ROTATION_ANGLES: [-2.0, 2.0]
+
+TEST:
+  EVAL_PERIOD: 250
+
+OUTPUT_DIR: "../outputs/yearbook-clean60/fast_rcnn_R_50_FPN/"

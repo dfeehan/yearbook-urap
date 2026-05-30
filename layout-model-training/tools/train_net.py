@@ -50,10 +50,16 @@ def get_augs(cfg):
                 cfg.MODEL.SEM_SEG_HEAD.IGNORE_VALUE,
             )
         )
-    horizontal_flip: bool = cfg.INPUT.RANDOM_FLIP == "horizontal"
-    augs.append(T.RandomFlip(horizontal=horizontal_flip, vertical=not horizontal_flip))
-    # Rotate the image between -90 to 0 degrees clockwise around the centre
-    augs.append(T.RandomRotation(angle=[-90.0, 0.0]))
+
+    random_flip = str(cfg.INPUT.RANDOM_FLIP).lower()
+    if random_flip == "horizontal":
+        augs.append(T.RandomFlip(horizontal=True, vertical=False))
+    elif random_flip == "vertical":
+        augs.append(T.RandomFlip(horizontal=False, vertical=True))
+
+    rotation_angles = list(getattr(cfg.INPUT, "ROTATION_ANGLES", [-90.0, 0.0]))
+    if len(rotation_angles) == 2 and rotation_angles[0] != rotation_angles[1]:
+        augs.append(T.RandomRotation(angle=rotation_angles))
     return augs
 
 
@@ -119,6 +125,7 @@ def setup(args):
     Create configs and perform basic setups.
     """
     cfg = get_cfg()
+    cfg.INPUT.ROTATION_ANGLES = [-90.0, 0.0]
 
     if args.config_file != "":
         cfg.merge_from_file(args.config_file)

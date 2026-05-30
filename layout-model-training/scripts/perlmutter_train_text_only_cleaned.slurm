@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH -A atlas
 #SBATCH -C gpu
-#SBATCH -q regular
+#SBATCH -q shared
 #SBATCH -N 1
 #SBATCH --ntasks=1
-#SBATCH --gpus-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --time=04:00:00
+#SBATCH --gpus-per-task=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=02:00:00
 #SBATCH -J yb_text_clean
 #SBATCH -o logs/yb_text_clean_%j.out
 #SBATCH -e logs/yb_text_clean_%j.err
@@ -14,20 +14,33 @@
 set -euo pipefail
 
 REPO_DIR="/global/cfs/projectdirs/atlas/haofeng/yearbook-urap-standalone"
-CONDA_ENV="/global/cfs/projectdirs/atlas/haofeng/conda_envs/yearbook_env"
+VENV_DIR="${REPO_DIR}/.venv310"
 PROJECT_ID="158111"
 
 cd "${REPO_DIR}"
 mkdir -p layout-model-training/logs layout-model-training/outputs/yearbook-text-only/fast_rcnn_R_50_FPN
 
-source "$(conda info --base)/etc/profile.d/conda.sh"
-conda activate "${CONDA_ENV}"
+if [ ! -x "${VENV_DIR}/bin/python" ]; then
+  echo "Missing virtual environment at ${VENV_DIR}"
+  exit 1
+fi
+
+source "${VENV_DIR}/bin/activate"
+
+# Avoid portalocker issues on shared filesystems when downloading Detectron2 model weights.
+JOB_TMP_DIR="${SLURM_TMPDIR:-/tmp/${USER}/${SLURM_JOB_ID}}"
+mkdir -p "${JOB_TMP_DIR}/fvcore_cache"
+export FVCORE_CACHE="${JOB_TMP_DIR}/fvcore_cache"
+
+python -c "import torch, detectron2; print('Using', torch.__version__, detectron2.__version__)"
 
 python code/labelstudio/import_export_sandbox/download_project_images.py \
   --project-id "${PROJECT_ID}" \
   --out-dir layout-model-training/data/yearbook/images
 
-python create_clean_text_training_data.py
+python create_clean_text_training_data.py \
+  --annotations layout-model-training/data/yearbook/annotations.json \
+  --images-dir layout-model-training/data/yearbook/images
 
 cd "${REPO_DIR}/layout-model-training"
 python tools/train_net.py \

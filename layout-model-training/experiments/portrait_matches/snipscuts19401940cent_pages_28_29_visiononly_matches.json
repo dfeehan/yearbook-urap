@@ -1,0 +1,458 @@
+[
+  {
+    "portrait_id": 1,
+    "bbox": {
+      "x1": 0.08,
+      "y1": 0.1,
+      "x2": 0.22,
+      "y2": 0.26
+    },
+    "name": "Flora Nell Abee",
+    "nickname": "Little Nell",
+    "page_side": "left",
+    "activities": [
+      "Secretary Home Room (2)",
+      "S. O. L. Bible Club (2, 3)",
+      "Secretary (3)",
+      "Dramatics Club (3)",
+      "Nominatorial College Representative (2)",
+      "Student Assembly Representative (3)",
+      "French Club (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Flora Nell Abee, known as 'Little Nell,' served as Home Room Secretary and was active in the S. O. L. Bible Club and Dramatics Club. She also represented her class as Nominatorial College Representative and Student Assembly Representative."
+  },
+  {
+    "portrait_id": 2,
+    "bbox": {
+      "x1": 0.22,
+      "y1": 0.1,
+      "x2": 0.36,
+      "y2": 0.26
+    },
+    "name": "Bernice Abrams",
+    "nickname": "Bernie",
+    "page_side": "left",
+    "activities": [
+      "House and Grounds Committee"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Bernice Abrams, called 'Bernie,' participated in the House and Grounds Committee."
+  },
+  {
+    "portrait_id": 3,
+    "bbox": {
+      "x1": 0.08,
+      "y1": 0.26,
+      "x2": 0.22,
+      "y2": 0.42
+    },
+    "name": "James Jones Akers, Jr.",
+    "nickname": "Jimmy",
+    "page_side": "left",
+    "activities": [
+      "Home Room 206",
+      "Scientific Research Club",
+      "Spanish Club"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "James Jones Akers, Jr., known as 'Jimmy,' was a member of the Scientific Research Club and Spanish Club, with his home room in 206."
+  },
+  {
+    "portrait_id": 4,
+    "bbox": {
+      "x1": 0.22,
+      "y1": 0.26,
+      "x2": 0.36,
+      "y2": 0.42
+    },
+    "name": "Peggy Gray Albea",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Rambler Representative (2)",
+      "Ways and Means Committee (2)",
+      "Breakfast Committee (1)",
+      "Vice-President Home Room (1)",
+      "Snips and Cuts Advertising Staff (3)",
+      "Girls' Good Sports Club (3)",
+      "Coach Allen's Secretary (3)",
+      "History Club (2)",
+      "Home Room 117 (1, 2, 3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Peggy Gray Albea was a Rambler Representative and served as Vice-President of her Home Room. She also was on the Snips and Cuts Advertising Staff and served as Coach Allen's Secretary."
+  },
+  {
+    "portrait_id": 5,
+    "bbox": {
+      "x1": 0.08,
+      "y1": 0.42,
+      "x2": 0.22,
+      "y2": 0.58
+    },
+    "name": "Margaret Elizabeth Alexander",
+    "nickname": "Bettie",
+    "page_side": "left",
+    "activities": [
+      "Home Room (1, 2, 3), President (1)",
+      "Junior Marshal (2, 3)",
+      "Honor Society",
+      "Dramatics Club (3)",
+      "Hornets Nest History Club (3)",
+      "C. C. C. Latin Club (2)",
+      "Visitor's Desk (2)",
+      "Nominatorial College (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Margaret Elizabeth 'Bettie' Alexander served as Home Room President and was a Junior Marshal. She participated in the Honor Society, Dramatics Club, History Club, and Latin Club."
+  },
+  {
+    "portrait_id": 6,
+    "bbox": {
+      "x1": 0.22,
+      "y1": 0.42,
+      "x2": 0.36,
+      "y2": 0.58
+    },
+    "name": "John David Alexander",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "O. D. S., President (1, 2, 3)",
+      "Boys' Good Sports Club (1)",
+      "Treasurer Class (1)",
+      "Representative Student Council (1, 3)",
+      "Student Assembly (1, 2, 3)",
+      "Visual Aids Committee Member (1, 2, 3), Chairman (3)",
+      "Marshal and Co-Chief",
+      "President Honor Society",
+      "State Debate Team (2)",
+      "Improvements Committee Member (2, 3)",
+      "Program Committee (3)",
+      "Parliamentarian Student Assembly (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "John David Alexander served as President of O. D. S. all three years and as President of Honor Society. He was also Class Treasurer, Marshal and Co-Chief, member of the State Debate Team, and Parliamentarian of the Student Assembly."
+  },
+  {
+    "portrait_id": 7,
+    "bbox": {
+      "x1": 0.08,
+      "y1": 0.58,
+      "x2": 0.22,
+      "y2": 0.74
+    },
+    "name": "Harry Alexander Allen",
+    "nickname": "Chesty, Sleepy",
+    "page_side": "left",
+    "activities": [
+      "Junior Marshal (2, 3)",
+      "Track",
+      "Telephone Committee",
+      "Baseball",
+      "Home Room Treasurer (2)",
+      "Central Hi-Y Club President (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Harry Alexander Allen, nicknamed 'Chesty' and 'Sleepy,' was a Junior Marshal and athlete in track and baseball. He served as President of Central Hi-Y Club."
+  },
+  {
+    "portrait_id": 8,
+    "bbox": {
+      "x1": 0.22,
+      "y1": 0.58,
+      "x2": 0.36,
+      "y2": 0.74
+    },
+    "name": "John Andrew Allison, Jr.",
+    "nickname": "Jack",
+    "page_side": "left",
+    "activities": [
+      "Traffic Committee (1, 2)",
+      "Spanish Club (2)",
+      "German Club (3)",
+      "Scientific Research Club (1)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "John Andrew Allison, Jr., called 'Jack,' served on the Traffic Committee and was a member of the Spanish, German, and Scientific Research Clubs."
+  },
+  {
+    "portrait_id": 9,
+    "bbox": {
+      "x1": 0.08,
+      "y1": 0.74,
+      "x2": 0.22,
+      "y2": 0.92
+    },
+    "name": "Mary LaRue Allison",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Nominatorial College (1)",
+      "Chairman of Social Committee (3)",
+      "Student Assembly Representative (3)",
+      "Student Council (3)",
+      "House and Grounds (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Mary LaRue Allison served as Chairman of the Social Committee, Student Assembly Representative, and on the Student Council and House and Grounds committee."
+  },
+  {
+    "portrait_id": 10,
+    "bbox": {
+      "x1": 0.22,
+      "y1": 0.74,
+      "x2": 0.36,
+      "y2": 0.92
+    },
+    "name": "Margaret Alice Amon",
+    "nickname": "Chick",
+    "page_side": "left",
+    "activities": [
+      "Junior Marshal (2, 3)",
+      "Secretary Senior Class (3)",
+      "Vice-President Home Room (1)",
+      "President Girl Reserve Club (1, 2, 3)",
+      "Vice-President Inter-Club Council (1)",
+      "President (2, 3)",
+      "S. O. L. Bible Club (2, 3)",
+      "Rambler Representative (1)",
+      "Staff (2, 3)",
+      "Reporter (2)",
+      "News Editor (3)",
+      "Business Assistant (2)",
+      "Publicity Manager (3)",
+      "Soccer (1)",
+      "Basketball (1, 2, 3)",
+      "Swimming Club (2, 3)",
+      "Assistant (2)",
+      "Photography Club (1)",
+      "Movie Club (1)",
+      "Hornets Nest History Club (3)",
+      "Publicity Manager (3)",
+      "Lost and Found Committee (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Margaret Alice 'Chick' Amon was Secretary of the Senior Class and President of the Girl Reserve Club for three years. She held numerous positions including News Editor of the Rambler, Junior Marshal, and was active in basketball and swimming."
+  },
+  {
+    "portrait_id": 11,
+    "bbox": {
+      "x1": 0.42,
+      "y1": 0.06,
+      "x2": 0.56,
+      "y2": 0.22
+    },
+    "name": "Fred Amon",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Block 'C' Club (3, 4), President (4)",
+      "Boys' Good Sports Club (2, 3, 4), Vice-President (4)",
+      "Baseball (1)",
+      "Basketball (3)",
+      "Vice-President Home Room (4)",
+      "Choir (4)",
+      "Football (1, 3, 4), Captain (4)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Fred Amon was President of the Block 'C' Club and Vice-President of the Boys' Good Sports Club. He played football, serving as Captain his senior year, and was also active in baseball, basketball, and choir."
+  },
+  {
+    "portrait_id": 12,
+    "bbox": {
+      "x1": 0.56,
+      "y1": 0.06,
+      "x2": 0.7,
+      "y2": 0.22
+    },
+    "name": "Bessie Lee Anderson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "House and Grounds Representative (1)",
+      "Nominatorial College (2, 3)",
+      "Lost and Found Committee (3)",
+      "Girl Reserve Club (2)",
+      "Rambler Representative (1)",
+      "History Club (2)",
+      "Choir (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Bessie Lee Anderson served as House and Grounds Representative and was a Nominatorial College member. She participated in the Girl Reserve Club, History Club, and Choir."
+  },
+  {
+    "portrait_id": 13,
+    "bbox": {
+      "x1": 0.42,
+      "y1": 0.22,
+      "x2": 0.56,
+      "y2": 0.38
+    },
+    "name": "Joan Alexander Arrowood",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [],
+    "quote": null,
+    "other": null,
+    "bio": "Joan Alexander Arrowood is pictured among the senior class."
+  },
+  {
+    "portrait_id": 14,
+    "bbox": {
+      "x1": 0.56,
+      "y1": 0.22,
+      "x2": 0.7,
+      "y2": 0.38
+    },
+    "name": "Joseph William Armstrong",
+    "nickname": "Joe",
+    "page_side": "right",
+    "activities": [
+      "Assistant Manager Football Team (1, 2, 3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Joseph William 'Joe' Armstrong served as Assistant Manager of the Football Team for three years."
+  },
+  {
+    "portrait_id": 15,
+    "bbox": {
+      "x1": 0.42,
+      "y1": 0.38,
+      "x2": 0.56,
+      "y2": 0.54
+    },
+    "name": "John Lawrence Asbury",
+    "nickname": "Johnny Lawrence",
+    "page_side": "right",
+    "activities": [
+      "Boys' Good Sports Club (2, 3)",
+      "Spanish Club (2, 3)",
+      "Hi-Y Club (2)",
+      "President Home Room (2)",
+      "Vice-President (3)",
+      "Guidance Committee (3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "John Lawrence Asbury, 'Johnny Lawrence,' served as President and Vice-President of his Home Room. He participated in the Boys' Good Sports Club, Spanish Club, and Hi-Y Club."
+  },
+  {
+    "portrait_id": 16,
+    "bbox": {
+      "x1": 0.56,
+      "y1": 0.38,
+      "x2": 0.7,
+      "y2": 0.54
+    },
+    "name": "Frances Jean Ashmore",
+    "nickname": "Fat",
+    "page_side": "right",
+    "activities": [
+      "Basketball (2, 3)",
+      "Soccer (2)",
+      "Swimming (3)",
+      "Tennis (2, 3)",
+      "Girl Reserve Club (2, 3)",
+      "Vice-President Home Room (1)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Frances Jean 'Fat' Ashmore was a multi-sport athlete participating in basketball, soccer, swimming, and tennis. She was also active in the Girl Reserve Club and served as Vice-President of her Home Room."
+  },
+  {
+    "portrait_id": 17,
+    "bbox": {
+      "x1": 0.42,
+      "y1": 0.54,
+      "x2": 0.56,
+      "y2": 0.72
+    },
+    "name": "Herbert Alec Asten",
+    "nickname": "Shadow",
+    "page_side": "right",
+    "activities": [
+      "President Home Room (1, 2, 3)",
+      "Vice-President Senior Class (3)",
+      "Student Assembly Representative (3)",
+      "Chi Beta Chi Club (1)",
+      "Dance Committee (3)",
+      "Chairman Senior Invitations Committee (3)",
+      "Football (3)",
+      "Intramural Football (2)",
+      "Track (1, 2, 3)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Herbert Alec 'Shadow' Asten served as President of his Home Room all three years and Vice-President of the Senior Class. He participated in football, track, and chaired the Senior Invitations Committee."
+  },
+  {
+    "portrait_id": 18,
+    "bbox": {
+      "x1": 0.56,
+      "y1": 0.54,
+      "x2": 0.7,
+      "y2": 0.72
+    },
+    "name": "Leon Newell Atkinson",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [],
+    "quote": null,
+    "other": null,
+    "bio": "Leon Newell Atkinson is pictured among the senior class."
+  },
+  {
+    "portrait_id": 19,
+    "bbox": {
+      "x1": 0.42,
+      "y1": 0.72,
+      "x2": 0.56,
+      "y2": 0.9
+    },
+    "name": "Paul Aughtry",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Treasurer Home Room (1)",
+      "Football (1, 3)",
+      "History Forum (2)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Paul Aughtry served as Home Room Treasurer, played football, and participated in the History Forum."
+  },
+  {
+    "portrait_id": 20,
+    "bbox": {
+      "x1": 0.56,
+      "y1": 0.72,
+      "x2": 0.7,
+      "y2": 0.9
+    },
+    "name": "James Addison Austin",
+    "nickname": "Jimmy",
+    "page_side": "right",
+    "activities": [
+      "Band (1, 2, 3)",
+      "Treasurer Home Room (2)"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "James Addison 'Jimmy' Austin played in the Band for three years and served as Home Room Treasurer."
+  }
+]

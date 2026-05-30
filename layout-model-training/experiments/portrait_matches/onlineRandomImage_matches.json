@@ -1,0 +1,188 @@
+[
+  {
+    "portrait_id": 1,
+    "name": "Iris Cook",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [],
+    "quote": "\"Patience can cook a stone.\"",
+    "other": null,
+    "bio": "Iris Cook's quote reflects her belief in patience. No activities or additional information are provided.",
+    "bbox": {
+      "x1": 238,
+      "y1": 124,
+      "x2": 352,
+      "y2": 283
+    }
+  },
+  {
+    "portrait_id": 2,
+    "name": "Gene Coplin",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "National Honor Society"
+    ],
+    "quote": "\"To die, to sleep;-------- to sleep; perchance to bleed\"",
+    "other": null,
+    "bio": "Gene Coplin is a member of the National Honor Society. His quote references a famous literary work.",
+    "bbox": {
+      "x1": 350,
+      "y1": 122,
+      "x2": 453,
+      "y2": 282
+    }
+  },
+  {
+    "portrait_id": 3,
+    "name": "Leo Corrotto",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Track Club",
+      "T Club"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Leo Corrotto from Fort Smith, Ark., takes part in the Track Club and T Club.",
+    "bbox": {
+      "x1": 240,
+      "y1": 280,
+      "x2": 356,
+      "y2": 442
+    }
+  },
+  {
+    "portrait_id": 4,
+    "name": "Danby Council",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [],
+    "quote": null,
+    "other": "A personality all his own.",
+    "bio": "Danby Council is noted for having a unique personality, with no additional activities provided.",
+    "bbox": {
+      "x1": 348,
+      "y1": 278,
+      "x2": 458,
+      "y2": 438
+    }
+  },
+  {
+    "portrait_id": 5,
+    "name": "Juanita Cox",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Senior Play",
+      "Pep Squad"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Juanita Cox, known for her bright smiles and friendly words, participates in the Senior Play and Pep Squad.",
+    "bbox": {
+      "x1": 239,
+      "y1": 436,
+      "x2": 352,
+      "y2": 594
+    }
+  },
+  {
+    "portrait_id": 6,
+    "name": "Arthur Albert Crabtree",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [],
+    "quote": null,
+    "other": null,
+    "bio": "Arthur Albert Crabtree, noted for his combed hair and smiling face, does not have listed activities.",
+    "bbox": {
+      "x1": 341,
+      "y1": 436,
+      "x2": 454,
+      "y2": 596
+    }
+  },
+  {
+    "portrait_id": 7,
+    "name": "Gertrude Craddock",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Y.W.C.A.",
+      "Junior Leader"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Gertrude Craddock, conversant in many topics, participates in the Y.W.C.A. and is a Junior Leader.",
+    "bbox": {
+      "x1": 243,
+      "y1": 596,
+      "x2": 353,
+      "y2": 755
+    }
+  },
+  {
+    "portrait_id": 8,
+    "name": "Louise Craig",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Bruin",
+      "Math-Hughes Council",
+      "Girls Reserves' Club",
+      "G.A.A.",
+      "Carnival",
+      "V.C. Week Staff"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Louise Craig is involved in the Bruin, Math-Hughes Council, Girls Reserves' Club, G.A.A., Carnival, and V.C. Week Staff.",
+    "bbox": {
+      "x1": 343,
+      "y1": 594,
+      "x2": 462,
+      "y2": 752
+    }
+  },
+  {
+    "portrait_id": 9,
+    "name": "Harris Crane",
+    "nickname": null,
+    "page_side": "left",
+    "activities": [
+      "Band",
+      "Orchestra",
+      "Boys Glee Club",
+      "Contest Band"
+    ],
+    "quote": "\"What I have, I give.\"",
+    "other": null,
+    "bio": "Harris Crane is active in the Band, Orchestra, Boys Glee Club, and Contest Band. His quote is \"What I have, I give.\"",
+    "bbox": {
+      "x1": 240,
+      "y1": 749,
+      "x2": 349,
+      "y2": 906
+    }
+  },
+  {
+    "portrait_id": 10,
+    "name": "Wilbur Crane",
+    "nickname": null,
+    "page_side": "right",
+    "activities": [
+      "Band",
+      "Major of Bands"
+    ],
+    "quote": null,
+    "other": null,
+    "bio": "Wilbur Crane, with grit and determination, serves as the Major of Bands and is part of the Band.",
+    "bbox": {
+      "x1": 347,
+      "y1": 746,
+      "x2": 457,
+      "y2": 906
+    }
+  }
+]
