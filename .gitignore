@@ -89,8 +89,10 @@ Thumbs.db
 layout-model-training/data/yearbook/images/*.jpg
 layout-model-training/data/yearbook/images/*.png
 
-# Trained model weights (too large for Git - 315MB)
+# Trained model weights — tracked via Git LFS
+# Exclude all except the best-performing model (yearbook-clean60, 70% AP50)
 layout-model-training/outputs/**/model_*.pth
+!layout-model-training/outputs/yearbook-clean60/fast_rcnn_R_50_FPN/model_final.pth
 
 # Training logs and test outputs
 layout-model-training/scripts/*.log
@@ -102,6 +104,8 @@ layout-model-training/detection_*.png
 layout-model-training/v4-460px-Yearbook-Page-Ideas-Step-11.jpg
 layout-model-training/Screenshot *.png
 layout-model-training/outputs/
+!layout-model-training/outputs/yearbook-clean60/fast_rcnn_R_50_FPN/model_final.pth
+!layout-model-training/outputs/yearbook-clean60/fast_rcnn_R_50_FPN/config.yaml
 outputs/
 *.log
 
